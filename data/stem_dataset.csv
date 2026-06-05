@@ -1,0 +1,1371 @@
+question,answer,enhanced_prompt,enhanced_completion,difficulty,subject,topic
+What is a covalent bond?,A covalent bond is formed when atoms share one or more pairs of electrons.,"Provide a comprehensive explanation of a covalent bond suitable for a hard difficulty level within the field of Chemistry, specifically focusing on Bonding.
+
+User Input Context:
+- Question: What is a covalent bond?
+- Subject: Chemistry
+- Topic: Bonding
+- Difficulty: Hard","A covalent bond represents the fundamental mechanism by which atoms achieve electronic stability through the sharing of electron pairs, rather than the electrostatic attraction characteristic of ionic interactions. At its core, this phenomenon is governed by quantum mechanics, specifically the interplay between kinetic energy, potential energy, and the wave-like nature of electrons.
+
+When two atoms approach one another, their atomic orbitals—mathematical functions describing the probability distribution of an electron—begin to overlap. If the electrons in these orbitals possess opposite spins (adhering to the Pauli Exclusion Principle), their wave functions can interfere constructively. This constructive interference increases the electron probability density in the region directly between the two positively charged nuclei. Consequently, this accumulation of negative charge acts as an electrostatic ""glue,"" attracting both nuclei and lowering the system's overall potential energy. The bond forms at the specific internuclear distance where this attractive force is perfectly balanced by the repulsive forces between the nuclei and between the electron clouds, resulting in a state of minimum energy known as the bond length.
+
+From a molecular orbital perspective, the combination of atomic orbitals generates new molecular orbitals that extend over the entire molecule. The shared electrons occupy a ""bonding molecular orbital,"" which is lower in energy than the original atomic orbitals, thereby stabilizing the molecule. Conversely, if electrons were to occupy an ""antibonding orbital"" (characterized by a node, or region of zero electron density, between the nuclei), the system would become destabilized. The strength of the covalent bond, quantified as bond dissociation energy, depends directly on the extent of orbital overlap and the number of shared electron pairs. A single bond involves one sigma ($\sigma$) bond formed by head-on overlap, while double and triple bonds incorporate additional pi ($\pi$) bonds formed by the lateral overlap of p-orbitals, restricting rotation and imposing specific geometric constraints on the molecule.
+
+It is crucial to recognize that electron sharing is rarely equal. The concept of electronegativity dictates how strongly an atom attracts the shared electron pair within the bond. In a homonuclear diatomic molecule (such as $H_2$ or $O_2$), the electronegativities are identical, resulting in a nonpolar covalent bond with symmetrical electron distribution. However, in heteronuclear bonds (such as $H-Cl$), the more electronegative atom exerts a greater pull on the electron density, creating a polar covalent bond. This asymmetry generates a dipole moment, imparting partial positive and negative charges to the respective atoms, which profoundly influences the molecule's chemical reactivity, solubility, and intermolecular interactions.
+
+Ultimately, the covalent bond is not a static tether but a dynamic quantum state defined by the delocalization of electrons. It is the precise balancing of attractive and repulsive forces within the framework of wave mechanics that allows for the vast diversity of molecular structures observed in chemistry, from simple diatomic gases to complex biological macromolecules.",Hard,Chemistry,Bonding
+పైథాన్‌లో టెక్స్ట్‌ను ఎలా ప్రింట్ చేయాలి?,print ఫంక్షన్‌ను ఉపయోగించండి. ఉదాహరణ: print('Hello World').,"# పైథాన్‌లో టెక్స్ట్‌ను ప్రదర్శించడం
+
+**లక్ష్యం:** పైథాన్ ప్రోగ్రామింగ్ భాషలో టెక్స్ట్‌ను (మెసేజ్‌లను) ఎలా ప్రింట్ చేయాలో వివరించండి.
+
+**సందర్భం:**
+- విషయం: ప్రోగ్రామింగ్
+- భాష: పైథాన్ (Python)
+- స్థాయి: సులభం (Beginner)
+
+**అవసరాలు:**
+1. టెక్స్ట్‌ను ప్రింట్ చేయడానికి ఉపయోగించే ప్రాథమిక కమాండ్ (`print` ఫంక్షన్) ను పరిచయం చేయండి.
+2. స్పష్టమైన మరియు సరళమైన కోడ్ ఉదాహరణను అందించండి.
+3. కోడ్ ఎలా పనిచేస్తుందో సంక్షిప్తంగా వివరించండి.","# పైథాన్‌లో టెక్సట్‌ను ప్రదర్శించడం
+
+పైథానన్ ప్రోగ్రామింగ్ నేర్చుకోవడం అంటే కంప్యూటర్‌తో మాట్లాడటం నేర్చుకోవడమే. ఈ సంభాషణను మొదలుపెట్టడానికి మనం ఉపయోగించే అత్యంత ముఖ్యమైన మరియు సులభమైన సాధనం `print()` ఫంక్షన్. ఇది కంప్యూటర్ స్క్రీన్‌పై ఏదైనా సమాచారాన్ని లేదా సందేశాన్ని చూపించడానికి ఉపయోగపడుతుంది.
+
+### ప్రాథమిక కమాండ్: `print()`
+
+టెక్స్ట్‌ను ప్రదర్శించడానికి మనం `print` అనే పదాన్ని ఉపయోగిస్తాము. దీనిని ఒక ఫంక్షన్‌గా భావించవచ్చు. మీరు చెప్పదలచుకున్న సందేశాన్ని దీనిలోని బ్రాకెట్ల `( )` లోపల రాస్తారు. ముఖ్యంగా గమనించాల్సిన విషయం ఏమిటంటే, టెక్స్ట్‌ను ఎల్లప్పుడూ సింగిల్ కోట్స్ (`' '`) లేదా డబుల్ కోట్స్ (`"" ""`) లోపల ఉంచాలి. ఇలా చేయడం వల్ల కంప్యూటర్‌కు అది కోడ్ కాదు, కేవలం చూపించాల్సిన సాధారణ పదాలు అని అర్థమవుతుంది.
+
+### ఉదాహరణ కోడ్
+
+కింద ఇచ్చిన ఉదాహరణను చూడండి:
+
+```python
+print(""నమస్కారం! పైథాన్ ప్రపక్షంలోకి స్వాగతం."")
+print('ఇది మన మొదటి ప్రోగ్రామ్.')
+```
+
+### ఇది ఎలా పనిచేస్తుంది?
+
+1.  **కమ్యాండ్ గుర్తింపు:** మీరు `print` అని రాసిన వెంటనే, పైథాన్ ఇంటర్ప్రెటర్‌కు ""స్క్రీన్‌పై ఏదో ఒకటి చూపించాలి"" అని అర్థమవుతుంది.
+2.  **డేటా సేకరణ:** బ్రాకెట్ల లోపల ఉన్న విషయాన్ని అది గమనిస్తుంది. పైన ఉదాహరణలో `""నమస్కారం! పైథాన్ ప్రపక్షంలోకి స్వాగతం.""` అనే వాక్యం ఉంది.
+3.  **ప్రదర్శన:** కోడ్‌ను రన్ చేసినప్పుడు, కోట్స్ (`"" ""` లేదా `' '`) తొలగించబడి, లోపల ఉన్న టెక్స్ట్ మాత్రమే స్క్రీన్‌పై కనిపిస్తుంది.
+
+**ఫలితం:**
+స్క్రీన్‌పై ఇలా కనిపిస్తుంది:
+```text
+నమస్కారం! పైథాన్ ప్రపక్షంలోకి స్వాగతం.
+ఇది మన మొదటి ప్రోగ్రామ్.
+```
+
+ఇది చాలా సరళంగా ఉన్నా, ప్రోగ్రామింగ్‌లో ఇది చాలా ముఖ్యం. మీరు రాసిన కోడ్ సరిగ్గా పనిచేస్తుందో లేదో తెలుసుకోవడానికి, లేదా వినియోగదారునికి ఏదైనా సమాచారం అందించడానికి `print` ఫంక్షన్‌ను నిత్యం ఉపయోగిస్తారు. ఇప్పుడు మీరే ఈ కోడ్‌ను రన్ చేసి చూడండి!",Easy,Programming,Python
+What is a function?,A function is a reusable block of code designed to perform a specific task.,"Act as an expert Python instructor. Provide a comprehensive and technically rigorous explanation of what a 'function' is within the context of the Python programming language. 
+
+Your response must address the following constraints:
+- **Topic**: Define the concept of a function, its purpose, and its mechanics in Python.
+- **Language**: Python.
+- **Difficulty Level**: Hard. The explanation should cover advanced concepts such as first-class citizens, closures, decorators, scope resolution (LEGB rule), and argument passing mechanisms, rather than just basic syntax.
+
+Original Input Context:
+- Question: What is a function?
+- Domain: Programming
+- Language: Python
+- Difficulty: Hard","In Python, a function is not merely a reusable block of code; it is a first-class object that encapsulates a computational procedure, binding a name to an executable scope. At the architectural level, functions serve as the primary mechanism for abstraction, allowing complex systems to be decomposed into deterministic, testable, and composable units. However, to understand functions rigorously, one must analyze their behavior through the lens of Python's object model, memory management, and execution semantics.
+
+### Functions as First-Class Citizens
+In Python, functions are instances of the `function` type, inheriting directly from `object`. This classification grants them **first-class citizen** status, meaning they possess the same rights as any other data type (integers, strings, lists). Consequently, a function can be:
+1.  Assigned to a variable.
+2.  Passed as an argument to other functions.
+3.  Returned as the result of a function call.
+4.  Stored in data structures (lists, dictionaries, sets).
+
+This capability is the foundational prerequisite for functional programming patterns within Python, enabling higher-order functions where behavior is parameterized by other behaviors.
+
+### Execution Mechanics and Scope Resolution (LEGB)
+When a function is defined, Python creates a function object containing the compiled bytecode, default arguments, and a reference to the global namespace where the definition occurred. Upon invocation, a new **local namespace** (frame) is pushed onto the call stack.
+
+Variable resolution within this frame adheres strictly to the **LEGB rule**:
+1.  **Local**: The innermost scope, containing local variables defined within the current function body.
+2.  **Enclosing**: The scope of any statically nested functions (closures). Python searches outward through nested scopes if the variable is not found locally.
+3.  **Global**: The top-level namespace of the module where the function was defined.
+4.  **Built-in**: The pre-defined namespace containing exceptions and built-in functions (e.g., `len`, `print`).
+
+It is critical to note that assignment operations (`=`) always create or modify variables in the **Local** scope unless explicitly declared `global` or `nonlocal`. Without these keywords, attempting to rebind a variable found in an enclosing or global scope will result in Python treating it as a new local variable, potentially raising an `UnboundLocalError` if accessed before assignment.
+
+### Closures and Late Binding
+A **closure** occurs when a nested function references variables from its enclosing scope, and the outer function returns the inner function. The inner function retains access to the environment in which it was created, even after the outer function has terminated. This is achieved because the function object stores a tuple of cell objects (`__closure__`) that hold references to the free variables, preventing them from being garbage collected.
+
+A common pitfall in closure creation involves **late binding** in loops. Because closures capture variables by reference rather than by value at definition time, a loop creating multiple functions often results in all functions referencing the same final value of the loop variable. Rigorous implementation requires capturing the current value as a default argument (which is evaluated at definition time) or using `functools.partial`.
+
+### Argument Passing Mechanisms
+Python utilizes a mechanism often described as **""call by object reference""** (or ""call by sharing""). Arguments passed to functions are references to objects, not copies of the objects themselves, nor pointers to memory addresses in the C sense.
+
+The behavior depends on the mutability of the object:
+*   **Immutable Objects** (e.g., `int`, `str`, `tuple`): Rebinding the parameter name inside the function creates a new local reference, leaving the original object in the caller's scope unaffected.
+*   **Mutable Objects** (e.g., `list`, `dict`, custom classes): Since the reference points to the same underlying object, in-place modifications (e.g., `.append()`, item assignment) mutate the original object visible to the caller. However, reassigning the parameter name to a new object breaks the link to the original, affecting only the local scope.
+
+Default argument values are evaluated exactly once: at the moment of function definition, not at call time. Using mutable objects (like lists) as default arguments is a frequent source of state leakage bugs, as the same list instance persists across all invocations that omit that argument.
+
+### Decorators and Metaprogramming
+Given that functions are objects, they can be manipulated by other functions. A **decorator** is a higher-order function that takes a function as input and returns a new function, typically extending or modifying the original function's behavior without altering its source code.
+
+Syntactically, the `@decorator` notation is sugar for:
+```python
+func = decorator(func)
+```
+Decorators leverage closures to wrap the original function, allowing for the injection of logic before or after the execution of the target function (e.g., logging, access control, caching, timing). Advanced decorator patterns utilize `functools.wraps` to preserve the metadata (`__name__`, `__doc__`) of the original function, which is otherwise lost during the wrapping process. Furthermore, decorators can be parameterized, requiring a three-layer nested function structure (decorator factory) to handle arguments passed to the decorator itself.
+
+### Conclusion
+In summary, a Python function is a sophisticated runtime entity that combines executable code with a specific lexical environment. Its power derives from its status as a first-class object, its strict adherence to lexical scoping rules, its nuanced handling of mutable state via object references, and its ability to be dynamically transformed through decorators. Mastery of these mechanics is essential for writing robust, efficient, and maintainable Python systems.",Hard,Programming,Python
+2x + 4 = 10 માં x નું મૂલ્ય શું છે?,બંને બાજુએથી 4 બાદ કરો જેથી 2x = 6 મળે. 2 વડે ભાગો. તેથી x = 3.,"# ગણિત સમસ્યા ઉકેલો
+
+નીચે આપેલ બીજગણિતનું સરળ સમીકરણ ઉકેલીને $x$ નું મૂલ્ય શોધો:
+
+```
+2x + 4 = 10
+```
+
+**સૂચનાઓ:**
+- સમીકરણને પગલું-દર-પગલું ઉકેલો.
+- અંતિમ જવાબ સ્પષ્ટ રીતે દર્શાવો.","ચાલો, આપણે આ સમીકરણને ધ્યાનથી અને ધીમે ધીમે ઉકેલીએ. આપણે $x$ નું મૂલ્ય શોધવાનું છે.
+
+આપેલ સમીકરણ છે:
+$$2x + 4 = 10$$
+
+**પગલું ૧: સંખ્યાઓને અલગ કરવી**
+સૌથી પહેલા, આપણે $x$ વાળા ભાગને એકલા છોડવો છે. હાલમાં, $2x$ સાથે $+4$ જોડાયેલું છે. તેને દૂર કરવા માટે, આપણે સમીકરણની બંને બાજુએથી $4$ બાદ કરીશું.
+
+$$2x + 4 - 4 = 10 - 4$$
+
+હવે ગણતરી કરીએ:
+$$2x = 6$$
+
+**પગલું ૨: $x$ નું મૂલ્ય શોધવું**
+હવે આપણી પાસે $2x = 6$ છે. આનો અર્થ એ થાય કે કોઈ સંખ્યા ($x$) નો બે ગણો કરતાં $6$ મળે છે. તેથી, $x$ શોધવા માટે આપણે $6$ ને $2$ વડે ભાગીશું.
+
+$$x = \frac{6}{2}$$
+
+ભાગાકાર કરતાં:
+$$x = 3$$
+
+**જવાબ:**
+સમીકરણનો ઉકેલ છે:
+$$x = 3$$",Easy,Math,Algebra
+न्यूटनचा दुसरा नियम सांगा.,"न्यूटनचा दुसरा नियम असे सांगतो की, बल हे वस्तुमान आणि त्वरण यांच्या गुणाकाराइतके असते (F = ma).","भौतिकशास्त्र विषयातील मध्यम स्तरावर न्युटनचा दुसरा नियम स्पष्ट करा.
+
+संदर्भ माहिती:
+- विषय: भौतिकशास्त्र
+- संकल्पना: बल
+- कठीणता पातळी: मध्यम","**न्युटनचा दुसरा नियम: गती आणि बलाचे नाते**
+
+भौतिकशास्त्राच्या अभ्यासात जेव्हा आपण 'गती' (Motion) या विषयाकडे पाहतो, तेव्हा न्युटनचा दुसरा नियम हा एक अत्यंत महत्त्वाचा दुवा ठरतो. पहिल्या नियमाने आपल्याला सांगितले की, वस्तू स्थिर असली तर स्थिरच राहते आणि गतिमान असली तर तशीच गतिमान राहते, जोपर्यंत त्यावर बाह्य बल लागत नाही. पण, जेव्हा ते बाह्य बल लागते, तेव्हा नेमकं काय घडतं? वस्तू किती वेगाने गतिमान होते? या प्रश्नांचे उत्तर दुसऱ्या नियमात मिळते.
+
+सोप्या भाषेत सांगायचे तर, **न्युटनचा दुसरा नियम असे म्हणतो की, एखाद्या वस्तूवर जेव्हा बाह्य बल लागते, तेव्हा त्या वस्तूचा वेग बदलतो (त्वरण मिळते). हे त्वरण लागलेल्या बलाच्या प्रमाणात असते आणि ते बलाच्या दिशेनेच असते. तसेच, हे त्वरण त्या वस्तूच्या वस्तुमानाच्या (Mass) व्यस्त प्रमाणात असते.**
+
+हे गणितीय स्वरूपात खालीलप्रमाणे मांडता येईल:
+$$F = m \times a$$
+
+येथे:
+*   **F** = लागलेले बल (Force)
+*   **m** = वस्तूचे वस्तुमान (Mass)
+*   **a** = निर्माण झालेले त्वरण (Acceleration)
+
+**हे समजून घेण्यासाठी एक परिचित उदाहरण पाहूया:**
+
+पुण्यातील रस्त्यावरून जाताना आपण अनेकदा रिक्षा किंवा हातगाड्या पाहतो. समजा, एक रिकामी हातगाडी ढकलण्यासाठी तुम्हाला थोड्याच बलाची गरज आहे. ती लगेच गती घेते. पण, जर त्याच हातगाडीत जड माल (उदाहरणार्थ, भाजीपाला किंवा इमारती साहित्य) भरलेला असेल, तर तीच गाडी ढकलण्यासाठी तुम्हाला खूप जास्त जोर (बल) लावावा लागेल.
+
+यातून दोन गोष्टी स्पष्ट होतात:
+१. **वस्तुमान आणि त्वरण:** जर वस्तूचे वस्तुमान ($m$) जास्त असेल, तर तिला समान त्वरण ($a$) देण्यासाठी जास्त बल ($F$) लागते. म्हणजेच, जड वस्तूला गती देणे कठीण असते.
+२. **बल आणि त्वरण:** जर वस्तुमान स्थिर असेल, तर तुम्ही जितका जास्त जोर लावाल (बल वाढवाल), तितकाच वेगाने ती वस्तू गतिमान होईल (त्वरण वाढेल).
+
+**दैनंदिन जीवनातील उपयोग:**
+
+हा नियम फक्त प्रयोगशाळेपुरता मर्यादित नाही. जेव्हा क्रिकेटचा चेंडू खेळाडूच्या हातात येतो, तेव्हा तो हात मागे ओढतो. यामागेही हाच नियम काम करतो. चेंडूला थांबवण्यासाठी (ऋण त्वरण देण्यासाठी) बल लावावे लागते. जर हात ताठर ठेवला आणि चेंडू लगेच थांबवला, तर कमी वेळात वेग शून्य करावा लागल्यामुळे हातावर जास्त बल पडते आणि दुखापत होऊ शकते. हात मागे ओढल्यामुळे थांबण्यासाठी जास्त वेळ लागतो, परिणामी लागणारे बल कमी होते आणि हात सुरक्षित राहतो.
+
+थोडक्यात सांगायचे तर, न्युटनचा दुसरा नियम आपल्याला हे मोजण्याचे साधन देतो की, एखादी वस्तू गतिमान करण्यासाठी किंवा तिची गती बदलण्यासाठी नेमके किती बल लागेल. हे सूत्र अभियांत्रिकीपासून ते अवकाश संशोधनापर्यंत, प्रत्येक ठिकाणी गतीच्या गणिताचा पाया ठरते. विज्ञानाच्या दृष्टीने पाहिले तर, बल, वस्तुमान आणि त्वरण या तिघांचे हे समीकरण विश्वातील गतीचे रहस्य उलगडते.",Medium,Physics,Forces
+What is the symbol for Sodium?,The chemical symbol for Sodium is Na.,"Answer the following question based on the provided context tags:
+
+Question: What is the symbol for Sodium?
+Context Tags: Chemistry, Periodic Table, Easy","The chemical symbol for Sodium is **Na**.
+
+This abbreviation comes from the element's Latin name, *natrium*. You will find Sodium listed under this symbol on the periodic table with the atomic number 11. It is a soft, silvery-white metal that is highly reactive, which is why it is never found in its pure form in nature but rather in compounds like common table salt (sodium chloride).",Easy,Chemistry,Periodic Table
+State Newton's Second Law.,Newton's Second Law states that force equals mass multiplied by acceleration (F = ma).,"State Newton's Second Law.
+
+Context:
+- Subject: Physics
+- Topic: Forces
+- Difficulty: Medium","Newton's Second Law of Motion provides the quantitative link between the forces acting on an object and the resulting change in its motion. It states that the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. Crucially, this acceleration occurs in the same direction as the net force.
+
+This relationship is commonly expressed by the equation:
+
+$$F_{net} = ma$$
+
+Where:
+*   **$F_{net}$** represents the vector sum of all external forces acting on the object (measured in Newtons).
+*   **$m$** is the mass of the object (measured in kilograms), which serves as a measure of its inertia, or resistance to changes in motion.
+*   **$a$** is the acceleration produced (measured in meters per second squared).
+
+In practical terms, this law implies two fundamental principles. First, if you apply a greater force to an object, it will accelerate more rapidly, provided the mass remains constant. Second, for a constant applied force, an object with greater mass will accelerate less than an object with smaller mass. It is important to note that force and acceleration are vector quantities; therefore, the direction of the acceleration is always identical to the direction of the net force. If the net force is zero, the acceleration is zero, and the object maintains its current state of rest or uniform motion, a condition consistent with Newton's First Law.",Medium,Physics,Forces
+What is sin(90°)?,The value of sin(90°) is 1.,"Calculate the value of sin(90°).
+
+Context:
+- Subject: Math
+- Topic: Trigonometry
+- Difficulty: Medium","The value of $\sin(90^\circ)$ is exactly **1**.
+
+In trigonometry, the sine of an angle in a right-angled triangle is defined as the ratio of the length of the side opposite the angle to the length of the hypotenuse. However, when dealing with an angle of $90^\circ$, it is most clear to visualize this using the unit circle—a circle with a radius of 1 centered at the origin of a coordinate plane.
+
+On the unit circle, any angle is measured from the positive x-axis. An angle of $90^\circ$ corresponds to a rotation that lands directly on the positive y-axis. The coordinates of this point are $(0, 1)$. By definition, the sine of an angle corresponds to the y-coordinate of the point where the terminal side of the angle intersects the unit circle. Since the y-coordinate at this position is 1, $\sin(90^\circ) = 1$.
+
+This result is fundamental in mathematics and physics, often appearing in calculations involving wave peaks, maximum displacement in oscillatory motion, or resolving vectors that are perpendicular to a reference axis.",Medium,Math,Trigonometry
+A car travels 100 meters in 5 seconds. What is its speed?,Speed = distance ÷ time = 100 ÷ 5 = 20 meters per second.,"# Physics Problem: Mechanics
+
+**Difficulty:** Medium
+
+**Problem Statement:**
+A car travels 100 meters in 5 seconds. What is its speed?
+
+**Instructions:**
+1. **Identify Given Values:** Extract the distance and time from the problem statement.
+2. **Select Formula:** State the formula for calculating average speed ($speed = distance / time$).
+3. **Calculate:** Perform the division using the given values.
+4. **Final Answer:** Provide the final speed with the correct units (meters per second).","To determine the car's speed, we begin by identifying the specific values provided in the scenario. The car covers a **distance** of 100 meters over a **time** interval of 5 seconds.
+
+In classical mechanics, average speed is defined as the total distance traveled divided by the total time taken. The formula for this relationship is:
+
+$$ \text{Speed} = \frac{\text{Distance}}{\text{Time}} $$
+
+Substituting the given values into the equation:
+
+$$ \text{Speed} = \frac{100 \text{ meters}}{5 \text{ seconds}} $$
+
+Performing the division yields:
+
+$$ \text{Speed} = 20 $$
+
+Therefore, the car is traveling at a speed of **20 meters per second (m/s)**.",Medium,Physics,Mechanics
+What is Big O notation?,Big O notation describes the time or space complexity of an algorithm as input size grows.,"Act as an expert in computer science. Provide a comprehensive explanation of 'Big O notation' tailored for the domain of Programming and Algorithms, addressing the topic at a Hard difficulty level.
+
+Your response must include:
+1. **Definition**: A precise technical definition of Big O notation.
+2. **Purpose**: Why it is critical for analyzing algorithm efficiency.
+3. **Technical Breakdown**: Explain common complexity classes (e.g., O(1), O(log n), O(n), O(n^2)) with clear examples.
+4. **Nuance**: Discuss worst-case vs. average-case scenarios and how to derive Big O from code structures.
+
+Ensure the tone is professional, rigorous, and suitable for an advanced audience.
+
+Context Tags:
+- Topic: What is Big O notation?
+- Domain: Programming
+- Sub-domain: Algorithms
+- Difficulty: Hard","### Formal Definition
+
+Big O notation, denoted as $O(g(n))$, provides an asymptotic upper bound on the growth rate of a function $f(n)$, which typically represents the time complexity or space complexity of an algorithm relative to the input size $n$.
+
+Formally, $f(n) = O(g(n))$ if and only if there exist positive constants $c$ and $n_0$ such that:
+$$0 \leq f(n) \leq c \cdot g(n) \quad \forall n \geq n_0$$
+
+This definition asserts that beyond a certain threshold input size ($n_0$), the function $f(n)$ is bounded above by a constant multiple of $g(n)$. Crucially, Big O describes the behavior of the algorithm in the limit as $n$ approaches infinity, deliberately abstracting away machine-specific constants, lower-order terms, and hardware dependencies to focus purely on the scalability of the computational resource requirements.
+
+### Purpose in Algorithmic Analysis
+
+The critical utility of Big O notation lies in its ability to facilitate hardware-agnostic comparison of algorithmic efficiency. In professional software engineering and systems design, absolute execution time (measured in seconds) is volatile, varying significantly based on processor architecture, memory hierarchy, compiler optimizations, and concurrent system load.
+
+Big O isolates the intrinsic efficiency of the logic itself. It allows architects to predict how an system will behave under scale. An algorithm that performs adequately on a dataset of $10^3$ elements may cause catastrophic latency or resource exhaustion when the dataset grows to $10^9$ if the complexity class is suboptimal. By focusing on the dominant term of the growth function, Big O enables rigorous decision-making regarding trade-offs between time and space, ensuring that systems remain performant as data volumes expand exponentially.
+
+### Technical Breakdown of Complexity Classes
+
+The following hierarchy outlines common complexity classes, ordered from most to least efficient regarding scalability:
+
+**1. Constant Time: $O(1)$**
+The execution time remains invariant regardless of input size. The algorithm performs a fixed number of operations.
+*   **Example:** Accessing an element in an array by index (`array[i]`) or performing a basic arithmetic operation.
+*   **Implication:** Ideal scalability; doubling the input size has zero impact on execution time.
+
+**2. Logarithmic Time: $O(\log n)$**
+Execution time grows logarithmically with input size. These algorithms typically employ a ""divide and conquer"" strategy, reducing the problem space by a constant factor (usually half) in each iteration.
+*   **Example:** Binary Search on a sorted array. Each comparison eliminates half of the remaining search space.
+*   **Implication:** Highly efficient for massive datasets. Increasing $n$ from 1,000 to 1,000,000 only increases operations roughly from 10 to 20 (assuming base 2).
+
+**3. Linear Time: $O(n)$**
+Execution time grows directly proportional to the input size. The algorithm processes each element of the input a constant number of times.
+*   **Example:** Iterating through an unsorted list to find a specific value (linear search) or summing all elements in an array.
+*   **Implication:** Scalable, but performance degrades linearly. Doubling the input doubles the runtime.
+
+**4. Linearithmic Time: $O(n \log n)$**
+Execution time grows slightly faster than linear but significantly slower than quadratic. This is the theoretical lower bound for comparison-based sorting algorithms.
+*   **Example:** Merge Sort, Heap Sort, and Quick Sort (average case). The algorithm divides the input ($ \log n $) and processes each division linearly ($ n $).
+*   **Implication:** Acceptable for large-scale data processing, though more costly than pure linear solutions.
+
+**5. Quadratic Time: $O(n^2)$**
+Execution time grows proportionally to the square of the input size. This usually arises from nested iterations where every element is compared or processed against every other element.
+*   **Example:** Bubble Sort, Selection Sort, or naive matrix multiplication.
+*   **Implication:** Poor scalability. An input increase of 10x results in a 100x increase in runtime. Generally unacceptable for large $n$ in production environments.
+
+**6. Exponential Time: $O(2^n)$**
+Execution time doubles with each additional element in the input.
+*   **Example:** Solving the Traveling Salesperson Problem via brute force, or generating all subsets of a set.
+*   **Implication:** Computationally intractable for even moderately sized inputs.
+
+### Nuance: Scenarios and Derivation
+
+#### Worst-Case vs. Average-Case Analysis
+Big O is most frequently applied to **worst-case** analysis, providing a guarantee that the algorithm will never exceed the specified bound. This is critical for real-time systems and safety-critical applications where latency spikes are intolerable.
+
+However, **average-case** analysis is equally vital for understanding expected performance over random distributions of input. For instance, Quick Sort has a worst-case complexity of $O(n^2)$ (occurring when the pivot selection is consistently poor, e.g., on already sorted data with a naive pivot strategy), but an average-case complexity of $O(n \log n)$. In practice, randomized pivot selection makes the $O(n^2)$ scenario statistically negligible, rendering Quick Sort highly efficient. Distinguishing between these cases prevents the dismissal of algorithms that are theoretically vulnerable in edge cases but robust in practice.
+
+#### Deriving Big O from Code Structures
+Deriving complexity requires analyzing the control flow structures within the code:
+
+1.  **Sequential Statements:** Add the complexities. If a block is $O(n)$ followed by $O(m)$, the total is $O(n + m)$. In Big O, we retain only the dominant term relative to the primary input variable.
+2.  **Loops:** Multiply the complexity of the loop body by the number of iterations.
+    *   A single loop iterating $n$ times with $O(1)$ internal logic yields $O(n)$.
+    *   Nested loops where the inner loop depends on the outer loop's iterator (e.g., `for i in 0..n` containing `for j in i..n`) often result in arithmetic series, yielding $O(n^2)$.
+3.  **Recursion:** Analyze the recurrence relation. For a function making $b$ recursive calls on input size $n/a$ with $O(n^d)$ work per call, the Master Theorem can be applied to determine the complexity class.
+4.  **Dominance Rule:** When summing terms (e.g., $3n^2 + 5n + 10$), drop constants and lower-order terms. As $n \to \infty$, $n^2$ dominates $n$ and constants, simplifying the expression to $O(n^2)$.
+
+Rigorous application of these principles ensures that algorithmic choices are grounded in mathematical certainty rather than empirical guesswork, forming the bedrock of scalable software architecture.",Hard,Programming,Algorithms
+What is kinetic energy?,Kinetic energy is the energy possessed by an object due to its motion and is calculated as KE = 1/2 mv².,"# Task Definition
+Provide a comprehensive explanation of the concept specified below, tailored to the indicated difficulty level and context.
+
+# Input Data
+- **Question**: What is kinetic energy?
+- **Domain**: Physics
+- **Topic**: Energy
+- **Difficulty**: Hard
+
+# Instructions
+1. **Define the Concept**: Clearly define kinetic energy using precise physical terminology.
+2. **Mathematical Rigor**: Since the difficulty is ""Hard,"" include the relevant mathematical formulations (e.g., classical, relativistic, or rotational kinetic energy as appropriate) and derive or explain the variables involved.
+3. **Contextual Analysis**: Discuss the relationship between kinetic energy, work, and momentum within the field of Physics.
+4. **Advanced Nuance**: Address non-intuitive aspects or common misconceptions suitable for an advanced audience.
+
+Ensure the tone is academic and the explanation is thorough.","Kinetic energy is the quantitative measure of the energy possessed by an object solely due to its motion. In the framework of classical mechanics, it represents the work required to accelerate a body of a given mass from a state of rest to its current velocity. Once this energy is acquired during acceleration, the body maintains this kinetic energy unless its speed changes. It is a scalar quantity, meaning it has magnitude but no direction, and it is fundamentally tied to the frame of reference from which the motion is observed.
+
+### Mathematical Formulations
+
+To rigorously define kinetic energy, we must look beyond the introductory formula and examine its derivation and limitations across different physical regimes.
+
+**1. Classical (Translational) Kinetic Energy**
+In non-relativistic mechanics, where velocities ($v$) are significantly lower than the speed of light ($c$), the kinetic energy ($K$) of a point mass ($m$) is defined as:
+
+$$K = \frac{1}{2}mv^2$$
+
+This expression is not arbitrary; it is derived from the Work-Energy Theorem. If a net force $\mathbf{F}$ acts on a particle along a path $C$, the work done $W$ is the line integral of the force over the displacement $d\mathbf{r}$:
+
+$$W = \int_{C} \mathbf{F} \cdot d\mathbf{r}$$
+
+Substituting Newton's Second Law ($\mathbf{F} = m\mathbf{a} = m\frac{d\mathbf{v}}{dt}$) and noting that $d\mathbf{r} = \mathbf{v}dt$:
+
+$$W = \int_{t_1}^{t_2} m \frac{d\mathbf{v}}{dt} \cdot \mathbf{v} \, dt = m \int_{\mathbf{v}_1}^{\mathbf{v}_2} \mathbf{v} \cdot d\mathbf{v}$$
+
+Since $\mathbf{v} \cdot d\mathbf{v} = \frac{1}{2}d(\mathbf{v} \cdot \mathbf{v}) = \frac{1}{2}d(v^2)$, the integration yields:
+
+$$W = \frac{1}{2}m v_2^2 - \frac{1}{2}m v_1^2 = \Delta K$$
+
+Here, $m$ represents the invariant mass of the object, and $v$ is the magnitude of the velocity vector. The factor of $\frac{1}{2}$ arises naturally from the integration of the linear relationship between momentum and velocity.
+
+**2. Rotational Kinetic Energy**
+For rigid bodies undergoing rotation, the kinetic energy depends on the distribution of mass relative to the axis of rotation. The analogous formulation is:
+
+$$K_{rot} = \frac{1}{2}I\omega^2$$
+
+Where $I$ is the moment of inertia (the rotational equivalent of mass, defined as $\int r^2 dm$) and $\omega$ is the angular velocity. For a body exhibiting both translational and rotational motion, the total kinetic energy is the sum of both components, provided the center of mass frame is used for the rotational component.
+
+**3. Relativistic Kinetic Energy**
+As velocities approach the speed of light, the classical approximation fails. In special relativity, the total energy $E$ of a particle is given by $E = \gamma mc^2$, where $\gamma$ is the Lorentz factor:
+
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+The kinetic energy is defined as the total energy minus the rest energy ($E_0 = mc^2$):
+
+$$K_{rel} = (\gamma - 1)mc^2$$
+
+It is crucial to note that as $v \to c$, $\gamma \to \infty$, implying that an infinite amount of work is required to accelerate a massive object to the speed of light. In the limit where $v \ll c$, a Taylor expansion of $\gamma$ recovers the classical $\frac{1}{2}mv^2$ term, demonstrating the consistency between the two frameworks.
+
+### Contextual Analysis: Work, Momentum, and Energy
+
+Understanding kinetic energy requires distinguishing it from momentum ($\mathbf{p} = m\mathbf{v}$), though the two are intrinsically linked.
+
+*   **Vector vs. Scalar:** Momentum is a vector quantity; it retains information about the direction of motion. Kinetic energy is a scalar; it discards directional information, focusing solely on the magnitude of motion. Consequently, a system of two identical objects moving in opposite directions with equal speed has zero net momentum but positive total kinetic energy.
+*   **The Role of Work:** The Work-Energy Theorem establishes that the net work done on an object equals the change in its kinetic energy ($W_{net} = \Delta K$). This distinguishes energy from momentum, which is changed by impulse ($\mathbf{J} = \int \mathbf{F} dt = \Delta \mathbf{p}$). Work involves force applied over a *distance*, whereas impulse involves force applied over *time*.
+*   **Conservation Laws:** In isolated systems, total momentum is always conserved. Total energy is also always conserved, but kinetic energy specifically is only conserved in *elastic* collisions. In inelastic collisions, kinetic energy is transformed into other forms (thermal energy, sound, deformation), even though the total energy of the system remains constant.
+
+### Advanced Nuance and Common Misconceptions
+
+For the advanced student, several non-intuitive aspects of kinetic energy warrant careful consideration:
+
+**1. Frame Dependence**
+Kinetic energy is not an invariant quantity; it is dependent on the observer's inertial frame of reference. An object sitting on a train platform has zero kinetic energy relative to a passenger on the train, but significant kinetic energy relative to an observer on the platform if the train is moving. While the *value* of kinetic energy changes between frames, the *law* of conservation of energy holds true within any single inertial frame, provided all energy transfers (including work done by fictitious forces in non-inertial frames) are accounted for correctly.
+
+**2. The Quadratic Velocity Dependence**
+A common misconception arises from the $v^2$ term. Because kinetic energy scales with the square of velocity, doubling an object's speed quadruples its kinetic energy, not doubles it. This has profound practical implications, such as in vehicular braking distances: a car traveling at 60 mph possesses four times the kinetic energy of one traveling at 30 mph, requiring four times the work (and roughly four times the distance, assuming constant braking force) to stop.
+
+**3. Mass-Energy Equivalence**
+In relativistic contexts, the distinction between ""mass"" and ""energy"" blurs. The increase in kinetic energy at high velocities manifests as an increase in the system's total relativistic mass (or inertia), making the object increasingly resistant to further acceleration. This challenges the classical intuition that mass is a static property independent of motion.
+
+**4. The System vs. The Particle**
+In thermodynamics and statistical mechanics, the temperature of a gas is a measure of the average *random* translational kinetic energy of its constituent particles. However, if the entire gas container is moving, this bulk kinetic energy does not contribute to the temperature. Distinguishing between the kinetic energy of the center of mass and the internal kinetic energy relative to the center of mass is essential for correct thermodynamic analysis.
+
+In summary, kinetic energy is a fundamental scalar measure of motion that bridges the gap between force dynamics and thermodynamic states. Its mathematical formulation evolves from the simple $\frac{1}{2}mv^2$ of everyday mechanics to the complex relativistic forms required at cosmic scales, yet it remains governed by the universal principle that energy cannot be created or destroyed, only transformed.",Hard,Physics,Energy
+What is a variable in programming?,A variable is a named storage location used to hold data values.,"Explain the concept of a 'variable' in computer programming. Tailor your response to the following context:
+
+- **Domain**: Programming
+- **Language**: Python
+- **Difficulty Level**: Easy
+
+Ensure the explanation is clear, concise, and suitable for a beginner, using simple analogies if helpful.","Think of a **variable** in Python as a labeled box where you can store information to use later. Just like you might label a cardboard box ""Kitchen Stuff"" and put plates inside it, a variable has a name (the label) and holds a value (the contents).
+
+In Python, creating a variable is incredibly simple. You just choose a name, use an equals sign (`=`), and specify what you want to store. The equals sign here doesn't mean ""mathematically equal""; instead, think of it as an arrow pointing to the right, meaning ""put this value into this named box.""
+
+Here is a quick example:
+
+```python
+player_name = ""Alex""
+score = 100
+```
+
+In this code:
+*   `player_name` is the label on the first box, and inside it, we stored the text `""Alex""`.
+*   `score` is the label on the second box, containing the number `100`.
+
+Once you have these variables, you can use their names whenever you need the data they hold. If you want to display the score, you don't need to type `100` again; you just ask Python to look inside the `score` box.
+
+```python
+print(player_name)  # Output: Alex
+print(score)        # Output: 100
+```
+
+The real power of variables is that the contents can change. If the player earns more points, you can update the `score` box with a new number without changing the label:
+
+```python
+score = 150  # The box labeled 'score' now holds 150 instead of 100
+```
+
+Variables make your code flexible and readable. Instead of remembering random numbers or bits of text, you give them meaningful names like `player_name` or `score`, making your program easier to understand and update.",Easy,Programming,Python
+సోడియం యొక్క సంకేతం ఏమిటి?,సోడియం యొక్క రసాయన సంకేతం Na.,"సోడియం యొక్క రసాయన సంకేతం ఏమిటి?
+
+సందర్భం:
+- విషయం: రసాయన శాస్త్రం
+- మూలం: ఆవర్తన పట్టిక
+- స్థాయి: సులభం","సోడियం యొక్క రసాయన సంకేతం **Na**.
+
+ఇది ఆవర్తన పట్టికలో ఒక ముఖ్యమైన మూలకం. దీని సంకేతం 'Na' అని ఎందుకు ఉందంటే, దీని పూర్తి లాటిన్ పేరు ""Natrium"" (నాట్రియం). కాబట్టి, మనం దీనిని Na అని పిలుస్తాము. ఇది చాలా చురుకైన లోహం.",Easy,Chemistry,Periodic Table
+2x + 4 = 10 मध्ये x ची किंमत काय आहे?,"दोन्ही बाजूंमधून 4 वजा करा, ज्यामुळे 2x = 6 मिळेल. 2 ने भागा. म्हणून x = 3.","# गणिती समस्या सोडवणे
+
+खालील बीजगणितीय समीकरण सोडवून 'x' ची किंमत शोधा:
+
+**समीकरण:**
+2x + 4 = 10
+
+**संदर्भ:**
+- विषय: गणित
+- उप-विषय: बीजगणित
+- कठीणता पातळी: सोपे
+
+**सूचना:**
+1. समीकरणाचे चरण-दर-चरण निराकरण करा.
+2. प्रत्येक गणिती पायरी स्पष्टपणे मांडा.
+3. अंतिम उत्तर स्पष्टपणे नमूद करा.","नमस्कार! चला हे सोपे बीजगणिताचे समीकरण एकत्रितपणे सोडवूया. घाबरू नका, आपण हे पायरी-पायरीने आणि अगदी सोप्या पद्धतीने करू.
+
+आपल्याला दिलेले समीकरण आहे:
+**2x + 4 = 10**
+
+येथे 'x' ही एक अशी संख्या आहे जी आपल्याला शोधायची आहे. चला ती शोधूया:
+
+**पायरी १: संख्यांना वेगळे करूया**
+समीकरणाच्या डाव्या बाजूला '2x' आणि '4' आहेत. आपल्याला 'x' ला एकटे करायचे आहे. त्यासाठी, आपण '4' ला समीकरणाच्या दुसऱ्या बाजूला (उजव्या बाजूला) नेऊ.
+जेव्हा आपण एखादी संख्या plus (+) चिन्हासह दुसऱ्या बाजूला नेतो, तेव्हा ती minus (-) होते.
+
+म्हणून, समीकरण असे होईल:
+2x = 10 - 4
+
+आता उजव्या बाजूची बेरीजा करूया:
+10 मधून 4 वजा केल्यास 6 उरतो.
+म्हणून, **2x = 6**
+
+**पायरी २: 'x' ची किंमत काढूया**
+आता आपल्याकडे '2x = 6' आहे. याचा अर्थ असा की, एखाद्या संख्येला (x) 2 ने गुणल्यास 6 येतो.
+त्या संख्येला (x) एकटे करण्यासाठी, आपण 6 ला 2 ने भागूया.
+
+x = 6 ÷ 2
+
+6 ला 2 ने भागल्यास उत्तर 3 येते.
+म्हणून, **x = 3**
+
+**तपासणी (खात्री करण्यासाठी):**
+चला आपण उत्तर बरोबर आहे का ते पाहूया. समीकरणात 'x' च्या जागी 3 टाकूया:
+2 × 3 + 4 = ?
+6 + 4 = 10
+हे आपल्या मूळ समीकरणाशी (10) जुळते! म्हणून आपले उत्तर अगदी बरोबर आहे.
+
+**अंतिम उत्तर:**
+**x = 3**
+
+अभिनंदन! तुम्ही हे समीकरण यशस्वीरित्या सोडवले.",Easy,Math,Algebra
+சோடியத்தின் குறியீடு என்ன?,சோடியத்தின் வேதியியல் குறியீடு Na ஆகும்.,"பின்வரும் தகவல்களின் அடிப்படையில் கேள்விக்கு விடையளிக்கவும்:
+
+கேள்வி: சோடியத்தின் குறியீடு என்ன?
+தலைப்பு: வேதியியல்
+தொடர்புடைய அட்டவணை: தனிம வரிகை அட்டவணை
+கடினம் நிலை: எளிது
+
+குறிப்பு: 'தனிம வரிகை அட்டவணை' என்பது வேதியியல் தனிமங்களை அவற்றின் அணு எண்ணின் அடிப்படையில் வரிசைப்படுத்தும் அட்டவணையைக் குறிக்கிறது.","சோடியத்தின் வேதியியல் குறியீடு **Na** ஆகும்.
+
+இந்தக் குறியீடு ஆங்கிலப் பெயரான 'Sodium' என்பதிலிருந்து வரவில்லை; மாறாக, அதன் இலத்தீன் பெயரான **'Natrium'** என்பதிலிருந்து எடுக்கப்பட்டது. தனிம வரிசை அட்டவணையில் இது 11-வது தனிமமாக உள்ளது. வேதியியலில் பல தனிமங்கள் அவற்றின் இலத்தீன் அல்லது கிரேக்க வேர்ச்சொற்களின் அடிப்படையிலேயே குறியீடுகளைப் பெற்றுள்ளன என்பதை நினைவில் கொள்வது பயனுள்ளதாக இருக்கும்.",Easy,Chemistry,Periodic Table
+How do you print text in Python?,Use the print function. Example: print('Hello World').,"# Task: Explain How to Print Text in Python
+
+**Context Tags:** Programming, Python, Easy
+
+**Instructions:**
+Provide a clear and beginner-friendly explanation of how to print text in Python. Your response must include:
+1. The specific function used for this task.
+2. A simple code example demonstrating the syntax.
+3. A brief explanation of how the code works.
+
+Ensure the tone is educational and suitable for someone with an 'Easy' difficulty level understanding of programming.","To display text on the screen in Python, you will use a built-in tool called the `print()` function. Think of this function as a megaphone for your code; whatever you place inside the parentheses is what gets spoken out to the user.
+
+Here is a simple example of how to use it:
+
+```python
+print(""Hello, world!"")
+```
+
+**How it works:**
+1.  **The Command**: We start by typing `print`, which tells Python we want to output something.
+2.  **The Container**: The parentheses `()` act as a container where you place the specific content you want to show.
+3.  **The Text**: The message `""Hello, world!""` is wrapped in quotation marks. These marks are essential because they tell Python that this is a piece of text (a string) to be displayed exactly as written, rather than a command or a number to be calculated.
+
+When you run this code, Python reads the instruction, takes the text inside the quotes, and displays it on your screen. It is the most fundamental way to see the results of your program in action.",Easy,Programming,Python
+2x + 4 = 10లో x విలువ ఎంత?,రెండు వైపులా 4ను తీసివేస్తే 2x = 6 వస్తుంది. 2తో భాగించండి. కాబట్టి x = 3.,"# గణిత సమస్య పరిష్కారం
+
+**విషయం:** గణితం, బీజగణితం
+**స్థాయి:** సులభం
+
+**సూచనలు:**
+క్రింది సమీకరణాన్ని పరిష్కరించి, 'x' విలువను కనుగొనండి. దయచేసి మీ పరిష్కారాన్ని దశలవారీగా వివరించండి.
+
+**సమీకరణం:**
+2x + 4 = 10లో x విలువ ఎంత?","నమస్కారం! రాండి, ఈ చిన్న గణిత సమస్యను కలిసి సులభంగా పరిష్కరిద్దాం. భయపడాల్సిన అవసరం లేదు, ఇది చాలా సరదాగా ఉంటుంది.
+
+మన దగ్గర ఉన్న సమీకరణం:
+**2x + 4 = 10**
+
+ఇక్కడ 'x' అనేది మనం కనుగొనాల్సిన ఒక రహస్య సంఖ్య. దీన్ని తెలుసుకోవడానికి మనం రెండు చిన్న అడుగులు వేద్దాం.
+
+**మొదటి అడుగు: అదనపు సంఖ్యను తొలగిద్దాం**
+సమీకరణంలో '2x' పక్కన '+ 4' ఉంది. 'x' విలువ తెలుసుకోవాలంటే, ఆ 4 ని అక్కడి నుంచి తీసేయాలి. ఒకవేళ మనం ఒక వైపు 4 ని తీసివేస్తే, సమతుల్యత కోసం మరో వైపు కూడా 4 ని తీసేయాలి.
+
+*   ఎడమ వైపు: 4 - 4 అయితే 0 అవుతుంది. కాబట్టి అక్కడ కేవలం **2x** మాత్రమే మిగులుతుంది.
+*   కుడి వైపు: 10 నుండి 4 ని తీసివేస్తే **6** మిగులుతుంది.
+
+ఇప్పుడు మన సమీకరణం ఇలా మారింది:
+**2x = 6**
+
+**రెండవ అడుగు: 'x' విలువను కనుగొందాం**
+ఇప్పుడు ""2x"" అంటే ""2 గుణకం x"" అని అర్థం. అంటే, ఏ సంఖ్యను 2 తో గుణిస్తే 6 వస్తుందో మనం కనుగొనాలి. దీనికి సులభమైన పద్ధతి ఏంటంటే, 6 ని 2 తో భాగించడం.
+
+*   6 ని 2 తో భాగిస్తే (**6 ÷ 2**), మనకు **3** వస్తుంది.
+
+కాబట్టి, **x = 3**.
+
+**సరిచూసుకుందాం:**
+మనం కనుగొన్న విలువ సరైనదా కాదా చూద్దాం. 'x' స్థానంలో 3 పెట్టి చూడండి:
+2 × 3 = 6
+6 + 4 = 10
+అవును కదా! మనకు కుడి వైపు ఉన్న 10 వచ్చింది.
+
+అభినందనలు! మీరు విజయవంతంగా **x = 3** అని కనుగొన్నారు. గణితం ఎప్పుడూ ఇలానే చిన్న చిన్న అడుగుల్లో సాగుతుంది. మీరు బాగా చేశారు!",Easy,Math,Algebra
+सोडियम का प्रतीक क्या है?,सोडियम का रासायनिक प्रतीक Na है।,"# कार्य: रासायनिक तत्व का प्रतीक ज्ञात करें
+
+निम्नलिखित इनपुट डेटा के आधार पर प्रश्न का उत्तर दें:
+
+<इनपुट_डेटा>
+सोडियम का प्रतक क्या है?
+रसायन विज्ञान
+आवर्त सारणी
+आसान
+</इनपुट_डेटा>
+
+निर्देश:
+1. उपरोक्त डेटा में दिए गए तत्व (सोडियम) का रासायनिक प्रतीक पहचानें।
+2. संदर्भ (रसायन विज्ञान, आवर्त सारणी) और कठिनाई स्तर (आसान) का ध्यान रखते हुए एक सीधा और सटीक उत्तर प्रदान करें।","सोडियम का रासायनिक प्रतीक **Na** है।
+
+यह प्रतीक सोडियम के लैटिन नाम 'नैट्रियम' (Natrium) से लिया गया है। आवर्त सारणी में यह एक बहुत ही महत्वपूर्ण तत्व है।",Easy,Chemistry,Periodic Table
+ન્યૂટનનો બીજો નિયમ જણાવો.,ન્યૂટનનો બીજો નિયમ જણાવે છે કે બળ એ દળ અને પ્રવેગનો ગુણાકાર છે (F = ma).,"તમે ભૌતિક વિજ્ઞાનના મધ્યમ સ્તરના વિદ્યાર્થી છો. નીચે આપેલ વિષયોના સંદર્ભમાં ન્યૂટનનો બીજો નિયમ સ્પષ્ટ અને સરળ ભાષામાં સમજાવો:
+
+- વિષય: ભૌતિક વિજ્ઞાન
+- ઉપ-વિષય: બળો
+- સ્તર: મધ્યમ
+
+ન્યૂટનનું બીજું નિયમનું મૂળ વિધાન, તેનું ગાણિતિક સૂત્ર (F=ma), અને તેના ઘટકો (બળ, દળ, પ્રવેગ) ની વ્યાખ્યા આપો. ઉદાહરણ સહિત સમજૂતી આપો જેથી મધ્યમ સ્તરના વિદ્યાર્થીને તે સરળતાથી સમજાય.","ન્યૂટનનો ગતિનો બીજો નિયમ ભૌતિક વિજ્ઞાનનો એક મૂળભૂત અને અત્યંત મહત્વપૂર્ણ સિદ્ધાંત છે, જે બળ, દળ અને પ્રવેગ વચ્ચેના સંબંધને સ્પષ્ટ કરે છે. આ નિયમ આપણને સમજાવે છે કે જ્યારે કોઈ પદાર્થ પર બાહ્ય બળ લાગુ પડે છે, ત્યારે તે પદાર્થની ગતિમાં કેવો ફેરફાર થાય છે.
+
+**નિયમનું મૂળ વિધાન:**
+ન્યૂટનના બીજા નિયમ મુજબ, ""કોઈ પણ પદાર્થના વેગમાનમાં થતો ફેરફારનો દર તેના પર લાગતા બાહ્ય બળના સમપ્રમાણમાં હોય છે અને આ ફેરફાર બળની દિશામાં જ થાય છે."" સરળ ભાષામાં કહીએ તો, જો તમે કોઈ પદાર્થને ધક્કો મારો (બળ લગાડો), તો તે પદાર્થ જેટલો ભારે (દળ) હશે અને જેટલું જોરથી ધક્કો મરાશે (બળ), તેના વેગમાં થતો ફેરફાર (પ્રવેગ) તે મુજબ નક્કી થશે.
+
+**ગાણિતિક સૂત્ર:**
+આ નિયમને ગાણિતિક રીતે નીચે મુજબ દર્શાવી શકાય છે:
+
+$$F = m \times a$$
+
+જ્યાં:
+*   **$F$** = બળ (Force)
+*   **$m$** = દળ (Mass)
+*   **$a$** = પ્રવેગ (Acceleration)
+
+**ઘટકોની વ્યાખ્યા:**
+
+1.  **બળ ($F$):** બળ એ એક ધક્કો કે ખેંચ છે જે પદાર્થની સ્થિતિ અથવા ગતિમાં ફેરફાર લાવે છે. તેનું માપક એકમ ન્યૂટન ($N$) છે. બળ જેટલું વધારે હશે, પદાર્થમાં ઉત્પન્ન થતો પ્રવેગ તેટલો જ વધારે હશે.
+2.  **દળ ($m$):** દળ એ પદાર્થમાં રહેલા દ્રવ્યના જથ્થાનું માપ છે. તે પદાર્થની જડત્વ (Inertia) નું પણ માપ છે, એટલે કે પદાર્થ પોતાની ગતિની સ્થિતિમાં થતા ફેરફારનો કેટલો વિરોધ કરે છે. તેનું માપક એકમ કિલોગ્રામ ($kg$) છે. દળ જેટલું વધારે હશે, તેને ગતિમાં લાવવા માટે તેટલું વધારે બળ જોઈશે.
+3.  **પ્રવેગ ($a$):** પ્રવેગ એ પદાર્થના વેગમાં થતા ફેરફારનો દર છે. જ્યારે પદાર્થ ઝડપી બને છે, ધીમો પડે છે અથવા તેની ગતિની દિશા બદલાય છે, ત્યારે તેને પ્રવેગ કહેવાય છે. તેનું માપક એકમ મીટર પ્રતિ સેકન્ડ વર્ગ ($m/s^2$) છે.
+
+**ઉદાહરણ દ્વારા સમજૂતી:**
+
+ધારો કે તમે એક ખાલી હેન્ડકાર્ટ (ગાડી) અને એક ભારે સામાનથી ભરેલી હેન્ડકાર્ટને ધક્કો મારીને ગતિમાં લાવવા માંગો છો.
+
+*   **પરિસ્થિતિ ૧ (દળનો પ્રભાવ):** જો તમે ખાલી ગાડી અને ભારે ગાડી બંનેને સમાન જોરથી (સમાન બળથી) ધક્કો મારો, તો ખાલી ગાડી ઝડપથી આગળ વધશે (વધુ પ્રવેગ મળશે), જ્યારે ભારે ગાડી ધીમેથી આગળ વધશે (ઓછો પ્રવેગ મળશે). આ દર્શાવે છે કે દળ વધવાથી પ્રવેગ ઘટે છે ($a \propto 1/m$).
+*   **પરિસ્થિતિ ૨ (બળનો પ્રભાવ):** જો તમે માત્ર ખાલી ગાડીને પહેલા હળવા હાથે ધક્કો મારો અને પછી જોરથી ધક્કો મારો, તો જોરથી ધક્કો મારવાથી ગાડી વધુ ઝડપે ગતિ કરશે. આ દર્શાવે છે કે બળ વધવાથી પ્રવેગ વધે છે ($a \propto F$).
+
+આમ, ન્યૂટનનો બીજો નિયમ આપણને સ્પષ્ટ કરે છે કે પદાર્થને ગતિમાં લાવવા માટે જરૂરી બળ તેના દળ અને ઇચ્છિત પ્રવેગના ગુણાકાર બરાબર હોવું જોઈએ. આ સિદ્ધાંત રોજિંદા જીવનથી લઈને અવકાશયાનના પ્રક્ષેપણ સુધીની ગતિઓને સમજવા માટે આધારભૂત છે.",Medium,Physics,Forces
+న్యూటన్ రెండవ నియమాన్ని పేర్కొనండి.,"న్యూటన్ రెండవ నియమం ప్రకారం, బలం అనేది ద్రవ్యరాశి మరియు త్వరణం యొక్క లబ్ధానికి సమానం (F = ma).","# పాత్ర
+మీరు ఒక నిపుణుడైన భౌతిక శాస్త్ర ఉపాధ్యాయులు.
+
+# పని
+క్రింద ఇవ్వబడిన సందర్భానికి అనుగుణంగా న్యూటన్ రెండవ గతి నియమాన్ని (Newton's Second Law of Motion) స్పష్టంగా మరియు ఖచ్చితంగా వివరించండి.
+
+# సందర్భం మరియు కీలక పదాలు
+- **విషయం**: భౌతిక శాస్త్రం
+- **ఉప విభాగం**: బలాలు
+- **స్థాయి**: మధ్యస్థం (Intermediate)
+
+# అవసరమైన సమాచారం
+1. నియమం యొక్క ప్రకటన.
+2. గణిత సూత్రం ($F = ma$) మరియు దానిలోని పదాల వివరణ.
+3. మధ్యస్థ స్థాయి విద్యార్థికి అర్థమయ్యేలా ఒక సంక్షిప్త ఉదాహరణ.
+
+# మూల ఇన్‌పుట్ డేటా
+న్యూటనన్ రెండవ నియమాన్నని పేర్కొనండి.
+భౌతక శాస్త్రం
+బలాలు
+మధ్యస్థం","**న్యూటన్ రెండవ గతి నియమం**
+
+భౌతిక శాస్త్రంలో చలనాన్ని అర్థం చేసుకోవడానికి న్యూటన్ రెండవ నియమం అత్యంత కీలకమైనది. ఒక వస్తువుపై బాహ్య బలం ప్రయోగించబడినప్పుడు, ఆ వస్తువు ఎలా ప్రతిస్పందిస్తుందో ఈ నియమం స్పష్టంగా వివరిస్తుంది.
+
+**1. నియమం యొక్క ప్రకటన**
+""ఒక వస్తువుపై ప్రయోగించబడిన నికర బలం (Net Force), ఆ వస్తువు ద్రవ్యరాశి (Mass) మరియు అది పొందే త్వరణం (Acceleration) ల లబ్ధానికి సమానంగా ఉంటుంది. ఈ త్వరణం ఎల్లప్పుడూ ప్రయోగించిన బలం దిశలోనే ఉంటుంది.""
+
+సరళంగా చెప్పాలంటే, ఒక వస్తువును నెట్టినప్పుడు లేదా లాగినప్పుడు, అది ఎంత వేగంగా వేగవంతమవుతుందో (త్వరణం) ఆ వస్తువు బరువు (ద్రవ్యరాశి) మరియు మీరు ప్రయోగించిన శక్తి (బలం) పై ఆధారపడి ఉంటుంది.
+
+**2. గణిత సూత్రం మరియు పదాల వివరణ**
+ఈ నియామాన్ని గణిత రూపంలో ఈ క్రింది విధంగా రాస్తారు:
+
+$$F = ma$$
+
+ఇక్కడ ఉపయోగించిన పదాల అర్థాలు:
+*   **$F$ (బలం - Force):** వస్తువుపై ప్రయోగించబడిన నికర బలం. దీని ప్రమాణం న్యూటన్ (N).
+*   **$m$ (ద్రవ్యరాశి - Mass):** ఆ వస్తువు యొక్క ద్రవ్యరాశి. దీని ప్రమాణం కిలోగ్రాములు (kg). ఇది వస్తువులోని పదార్థ పరిమాణాన్ని సూచిస్తుంది.
+*   **$a$ (త్వరణం - Acceleration):** ఆ బలం వల్ల వస్తువుకు కలిగే వేగంలో మార్పు రేటు. దీని ప్రమాణం మీటర్లు పర్ సెకండ్ స్క్వేర్డ్ ($m/s^2$).
+
+ఈ సూత్రం నుండి మనం రెండు ముఖ్యమైన విషయాలను గ్రహించవచ్చు:
+1.  బలం ($F$) పెరిగితే, ద్రవ్యరాశి స్థిరంగా ఉన్నప్పుడు త్వరణం ($a$) కూడా పెరుగుతుంది.
+2.  ద్రవ్యరాశి ($m$) పెరిగితే, అదే బలాన్ని ప్రయోగించినప్పుడు త్వరణం ($a$) తగ్గుతుంది. అంటే, భారీ వస్తువులను కదిలించడానికి ఎక్కువ బలం అవసరం.
+
+**3. ఉదాహరణ**
+ఈ భావనను అర్థం చేసుకోవడానికి ఒక సరళమైన ఉదాహరణను పరిశీలిద్దాం:
+
+మీరు ఒక ఖాళీ షాపింగ్ ట్రాలీని మరియు నిండుగా సరుకులు ఉన్న షాపింగ్ ట్రాలీని ఊహించుకోండి.
+*   **సందర్భం 1:** ఖాళీ ట్రాలీని (తక్కువ ద్రవ్యరాశి) నెట్టడానికి తక్కువ బలం సరిపోతుంది మరియు అది త్వరగా వేగవంతమవుతుంది (ఎక్కువ త్వరణం).
+*   **సందర్భం 2:** అదే బలాన్ని సరుకులు నింపిన ట్రాలీపై (ఎక్కువ ద్రవ్యరాశి) ప్రయోగిస్తే, అది నెమ్మదిగానే కదులుతుంది లేదా కదలకపోవచ్చు (తక్కువ త్వరణం). సరుకులు ఉన్న ట్రాలీని ఖాళీ ట్రాలీలాగే వేగంగా కదిలించాలంటే, మీరు చాలా ఎక్కువ బలాన్ని ప్రయోగించాల్సి ఉంటుంది.
+
+ఇదే న్యూటన్ రెండవ నియమం యొక్క ఆచరణాత్మక రూపం: బలం, ద్రవ్యరాశి మరియు త్వరణం మధ్య ఉన్న సంబంధాన్ని ఇది స్పష్టంగా చూపిస్తుంది.",Medium,Physics,Forces
+સોડિયમનું ચિહ્ન શું છે?,સોડિયમનું રાસાયણિક ચિહ્ન Na છે.,"# ભૂમિકા
+તમે એક રસાયણશાસ્ત્રના નિષ્ણાત શિક્ષક છો જે ગુજરાતી ભાષામાં સરળ અને સ્પષ્ટ જવાબો આપે છે.
+
+# કાર્ય
+નીચે આપેલ સંદર્ભ અને મુશ્કેલી સ્તરને ધ્યાનમાં રાખીને પ્રશ્નનો જવાબ આપો.
+
+# ઇનપુટ ડેટા
+- **પ્રશ્ન**: સોડિયમનું ચિહ્ન શું છે?
+- **વિષય**: રસાયણશાસ્ત્ર
+- **સંદર્ભ**: આવર્ત કોષ્ટક
+- **મુશ્કેલી સ્તર**: સરળ
+
+# જવાબ માપદંડો
+1. જવાબ ટૂંકો અને સીધો હોવો જોઈએ (ફક્ત ચિહ્ન).
+2. ભાષા સરળ ગુજરાતી હોવી જોઈએ જેથી શરૂઆત કરનારા વિદ્યાર્થીઓ સમજી શકે.
+3. અન્ય વધારાની માહિતી કે જટિલ સમજૂતીનો સમાવેશ કરશો નહીં.",સોડિયમનું ચિહ્ન **Na** છે.,Easy,Chemistry,Periodic Table
+2x + 4 = 10 என்ற சமன்பாட்டில் x-ன் மதிப்பு என்ன?,"இருபுறமும் 4-ஐக் கழிக்கவும், அதனால் 2x = 6 கிடைக்கும். 2-ஆல் வகுக்கவும். எனவே x = 3.","# கணிதக் கேள்வி
+
+பின்வரும் சமன்பாட்டில் $x$-ன் மதிப்பைக் கண்டறியவும்:
+
+```
+2x + 4 = 10
+```
+
+**தலைப்பு:** கணிதம்  
+**பிரிவு:** இயற்கணிதம்  
+**சிரம நிலை:** எளிது","வணக்கம்! வாங்க, இந்தக் கணக்கை மிக எளிமையாகத் தீர்ப்போம்.
+
+நமக்குக் கொடுத்திருக்கும் சமன்கோடு இதுதான்:
+**2x + 4 = 10**
+
+இதில் **x** என்பது நாம் கண்டுபிடிக்க வேண்டிய ஒரு ரகசிய எண். அதைக் கண்டுபிடிக்க இரண்டு எளிய படிகள் போதும்.
+
+**படி 1: கூடுதலை நீக்குவோம்**
+இடது பக்கத்தில் `2x` என்பதோடு `4` கூட்டப்பட்டிருக்கிறது. `x`-ஐத் தனியாகப் பிரிக்க, அந்த `4`-ஐ மறைக்க வேண்டும். அதற்காக, சமன்கோட்டின் இரு பக்கங்களிலிருந்தும் `4`-ஐ கழிப்போம்.
+
+*   இடது பக்கம்: $2x + 4 - 4$ → இங்கே $4 - 4$ பூஜ்ஜியமாகி விடும். மிச்சம் இருப்பது **$2x$**.
+*   வலது பக்கம்: $10 - 4$ → இது **$6$** ஆகும்.
+
+இப்போது நம் கணக்கு இப்படி மாறியிருக்கிறது:
+**2x = 6**
+
+**படி 2: பெருக்கலைப் பிரிப்போம்**
+இப்போது `x` என்பது `2`-ஆல் பெருக்கப்பட்டிருக்கிறது ($2x$ என்றால் $2 \times x$ என்று அர்த்தம்). `x`-ஐ முழுமையாகத் தனியாகக் கொண்டுவர, `2`-ஆல் வகுக்க வேண்டும். சமன்கோட்டின் இரு பக்கங்களையும் `2`-ஆல் வகுப்போம்.
+
+*   இடது பக்கம்: $2x \div 2$ → இங்கே $2$ மற்றும் $2$ ரத்து ஆகிவிடும். மிச்சம் இருப்பது **$x$**.
+*   வலது பக்கம்: $6 \div 2$ → இது **$3$** ஆகும்.
+
+இப்போது நமக்கு விடை கிடைத்துவிட்டது:
+**x = 3**
+
+**சரிபார்ப்போம்:**
+நாம் கண்டுபிடித்த `3` என்பது சரியானதா என்று பார்ப்போம்.
+கணக்கில் `x`-க்கு பதில் `3`-ஐப் போட்டால்:
+$2 \times 3 + 4 = 6 + 4 = 10$.
+வலது பக்கத்தில் இருப்பதும் $10$ தான். இரு பக்கங்களும் சமமாக இருக்கின்றன!
+
+எனவே, **x-ன் மதிப்பு 3** ஆகும். மிக எளிதாகத் தீர்ந்துவிட்டதல்லவா?",Easy,Math,Algebra
+What is the area of a rectangle with length 8 cm and width 5 cm?,Area = length × width = 8 × 5 = 40 square centimeters.,"# Task: Calculate Rectangle Area
+
+## Problem Details
+Calculate the area of a rectangle with the following dimensions:
+- **Length**: 8 cm
+- **Width**: 5 cm
+
+## Context Tags
+- Subject: Math
+- Topic: Geometry
+- Difficulty: Easy
+
+## Instructions
+1. Recall the formula for the area of a rectangle (Area = Length × Width).
+2. Substitute the given values into the formula.
+3. Compute the final result with the correct units.","Hello! Let's find the area of this rectangle together. It's a very straightforward process.
+
+First, remember the simple rule for finding the area of a rectangle: you just multiply the **length** by the **width**. You can think of this as counting how many square tiles fit inside the shape.
+
+Here are the numbers we have:
+*   **Length**: 8 cm
+*   **Width**: 5 cm
+
+Now, let's put those numbers into our rule:
+$$8 \times 5 = 40$$
+
+Since we are measuring space inside a shape, we use ""square"" units. Because our measurements were in centimeters (cm), our answer will be in square centimeters ($cm^2$).
+
+So, the area of the rectangle is **40 square centimeters**. Great job working through that!",Easy,Math,Geometry
+सोडियमचे चिन्ह काय आहे?,सोडियमचे रासायनिक चिन्ह Na आहे.,"# भूमिका
+तुम्ही एक रसायनशास्त्र तज्ज्ञ आहात जो विद्यार्थ्यांना क्लिप्त संकल्पना सोप्या भाषेत समजावून सांगतो.
+
+# कार्य
+खाली दिलेल्या संदर्भाच्या आधारे प्रश्नाचे उत्तर द्या.
+
+# संदर्भ
+- **विषय**: रसायनशास्र
+- **संदर्भ स्रोत**: आवर्त सारणी
+- **कठीणता पातळी**: सोपे
+
+# प्रश्न
+""सोडियमचे चिन्ह काय आहे?""
+
+# निर्देश
+1. वरील प्रश्नाचे थेट आणि अचूक उत्तर द्या.
+2. उत्तर 'सोपे' पातळीला अनुसरून असावे, जेणेकरून ते सहज समजेल.
+3. उत्तर मराठी भाषेत द्या.","सोडियमचे चिन्ह **Na** आहे.
+
+हे चिन्ह इंग्रजीतील 'Sodium' या शब्दावरून नसून, लॅटिन भाषेतील 'Natrium' या शब्दावरून घेतले आहे. म्हणून आवर्त सारणीत सोडियमसाठी 'Na' हे चिन्ह वापरतात.",Easy,Chemistry,Periodic Table
+न्यूटन का दूसरा नियम बताइए।,"न्यूटन का दूसरा नियम कहता है कि बल, द्रव्यमान और त्वरण के गुणनफल के बराबर होता है (F = ma)।","# भौतिकी प्रश्न
+
+**विषय:** बल
+**कठिनाई स्तर:** मध्यम
+
+**निर्देश:**
+कृपया न्युटन के गति के दूसरे नियम को विस्तार से समझाएं। अपने उत्तर में निम्नलिखित बातें शामिल करें:
+1. नियम की स्पष्ट परिभाषा।
+2. संबंधित गणितीय सूत्र ($F = ma$) और चरों का वर्णन।
+3. बल, द्रव्यमान और त्वरण के बीच के संबंध की व्याख्या।
+
+---
+**संदर्भ सामग्री:**
+न्यूटन क का दूसर ा नियम बत ाइए।
+भौत िकी
+बल
+मध ्यम","### न्यूटन का गति का दूसरा नियम: बल, द्रव्यमान और त्वरण का संबंध
+
+भौतिकी की दुनिया में गति को समझने के लिए न्यूटन का दूसरा नियम एक मौलिक स्तंभ है। यह नियम न केवल यह बताता है कि वस्तुएं कैसे गति करती हैं, बल्कि यह बल, द्रव्यमान और त्वरण के बीच एक सटीक गणितीय और तार्किक संबंध भी स्थापित करता है। आइए, इस नियम को विस्तार से समझते हैं।
+
+#### 1. नियम की स्पष्ट परिभाषा
+न्यूटन का गति का दूसरा नियम कहता है कि किसी वस्तु के संवेग (momentum) में परिवर्तन की दर, उस पर लगाए गए बाह्य बल के समानुपाती होती है और यह परिवर्तन उसी दिशा में होता है जिस दिशा में बल लगाया गया होता है।
+
+सरल शब्दों में, यदि किसी वस्तु पर कोई असंतुलित बल (net force) लगाया जाता है, तो वह वस्तु उस बल की दिशा में त्वरित (accelerate) होगी। यदि बल नहीं लगाया जाता, या यदि सभी बल एक-दूसरे को रद्द कर देते हैं, तो वस्तु का वेग नहीं बदलेगा (यानी वह या तो विराम अवस्था में रहेगी या एकसमान गति से चलती रहेगी)।
+
+#### 2. गणितीय सूत्र और चरों का वर्णन
+इस नियम को गणितीय रूप में सबसे प्रसिद्ध समीकरण के माध्यम से व्यक्त किया जाता है:
+
+$$F = ma$$
+
+यहाँ प्रयोग किए गए चरों का अर्थ निम्नलिखित है:
+*   **$F$ (बल):** यह वस्तु पर लगने वाला कुल या नेट बल (Net Force) है। इसका मानक मात्रक न्यूटन (N) है। यह एक सदिश राशि है, जिसका अर्थ है कि इसकी दिशा और परिमाण दोनों होते हैं।
+*   **$m$ (द्रव्यमान):** यह वस्तु का द्रव्यमान (Mass) है, जो वस्तु में मौजूद पदार्थ की मात्रा और उसकी जड़त्व (inertia) का माप है। इसका मानक मात्रक किलोग्राम (kg) है। यह एक अदिश राशि है।
+*   **$a$ (त्वरण):** यह वह दर है जिससे वस्तु का वेग बदल रहा है। इसका मानक मात्रक मीटर प्रति सेकंड वर्ग ($m/s^2$) है। त्वरण की दिशा सदैव लगाए गए नेट बल की दिशा के समान होती है।
+
+#### 3. बल, द्रव्यमान और त्वरण के बीच संबंध की व्याख्या
+इस समीकरण ($F = ma$) से हम बल, द्रव्यमान और त्वरण के बीच तीन महत्वपूर्ण तार्किक निष्कर्ष निकाल सकते हैं:
+
+*   **बल और त्वरण का सीधा संबंध ($a \propto F$):**
+    यदि वस्तु का द्रव्यमान ($m$) स्थिर रखा जाए, तो लगाए गए बल ($F$) में वृद्धि करने से त्वरण ($a$) में भी सीधी वृद्धि होगी। उदाहरण के लिए, यदि आप एक खाली गाड़ी को धक्का देते हैं और फिर उसी गाड़ी को दोगुने बल से धक्का देते हैं, तो उसका त्वरण भी दोगुना हो जाएगा। अर्थात, अधिक बल लगाने से वस्तु तेजी से गति बदलती है।
+
+*   **द्रव्यमान और त्वरण का व्युत्क्रम संबंध ($a \propto 1/m$):**
+    यदि लगाया गया बल ($F$) स्थिर रखा जाए, तो वस्तु का द्रव्यमान ($m$) बढ़ने पर उसका त्वरण ($a$) कम हो जाएगा। भारी वस्तुओं में जड़त्व अधिक होता है, इसलिए उन्हें गति देने या उनकी गति बदलने के लिए अधिक प्रयास की आवश्यकता होती है। उदाहरण के लिए, समान बल लगाने पर एक खाली ट्रक की तुलना में सामान से भरे ट्रक का त्वरण बहुत कम होगा।
+
+*   **दिशात्मक संबंध:**
+    त्वरण सदैव उसी दिशा में होता है जिस दिशा में नेट बल कार्य कर रहा होता है। यदि आप किसी वस्तु को आगे की ओर धक्का देते हैं, तो उसका त्वरण भी आगे की ओर ही होगा। यदि आप विपरीत दिशा में बल लगाते हैं (जैसे ब्रेक लगाना), तो त्वरण विपरीत दिशा में होगा (जिसे हम प्रायः मंदन या deceleration कहते हैं)।
+
+संक्षेप में, न्यूटन का दूसरा नियम हमें यह समझने का उपकरण देता है कि बल कैसे वस्तु की गति की स्थिति को बदलता है। यह संबंध इंजीनियरिंग से लेकर अंतरिक्ष विज्ञान तक, हर उस क्षेत्र में आधारभूत है जहाँ गति और बल का विश्लेषण किया जाता है।",Medium,Physics,Forces
+What is a loop?,A loop is a programming structure that repeats a block of code until a condition is met.,"Act as an expert programming instructor. Provide a clear, medium-depth explanation of the concept of a 'loop' within the context of Programming and Algorithms.
+
+Your response must include:
+1. **Definition**: A concise explanation of what a loop is and its purpose in controlling program flow.
+2. **Core Mechanics**: Briefly describe how loops function (e.g., initialization, condition checking, iteration, and termination).
+3. **Common Types**: List and briefly explain standard loop structures (e.g., `for`, `while`, `do-while`).
+4. **Practical Example**: Provide a simple, language-agnostic pseudocode example demonstrating a loop solving a basic algorithmic problem.
+
+Ensure the tone is educational and the complexity is appropriate for an intermediate learner.
+
+Context Tags:
+- Topic: What is a loop?
+- Domain: Programming
+- Sub-domain: Algorithms
+- Difficulty: Medium","### Understanding Loops in Programming and Algorithms
+
+#### 1. Definition
+A **loop** is a fundamental control flow structure that allows a specific block of code to be executed repeatedly until a predetermined condition is met. Its primary purpose is to eliminate redundancy; instead of writing the same instruction multiple times, a loop enables a program to automate repetitive tasks, efficiently processing lists of data, performing calculations, or waiting for specific events with minimal code.
+
+#### 2. Core Mechanics
+While syntax varies across programming languages, the underlying logic of every loop follows a consistent four-step cycle:
+
+*   **Initialization**: Before the loop begins, a control variable (often a counter) is set to a starting value. This establishes the baseline for the iteration.
+*   **Condition Checking**: Before each execution of the code block, the program evaluates a boolean expression (true/false). If the condition is true, the loop proceeds; if false, the loop terminates, and the program moves to the next instruction.
+*   **Execution (Body)**: The block of code inside the loop runs. This is where the actual work—such as updating a total, printing a value, or modifying data—takes place.
+*   **Iteration (Update)**: After the body executes, the control variable is updated (e.g., incremented or decremented). The process then returns to the condition checking phase.
+
+This cycle continues indefinitely until the condition evaluates to false, ensuring the program does not get stuck in an infinite loop.
+
+#### 3. Common Types
+There are three standard loop structures used to handle different logical scenarios:
+
+*   **For Loop**: Best used when the number of iterations is known beforehand. It compactly combines initialization, condition checking, and iteration update in a single line. It is ideal for traversing arrays or counting from point A to point B.
+*   **While Loop**: Used when the number of iterations is unknown and depends on a dynamic condition. The condition is checked *before* the code block executes. If the condition is false initially, the code block may never run.
+*   **Do-While Loop**: Similar to the `while` loop, but with a crucial difference: the condition is checked *after* the code block executes. This guarantees that the loop body runs at least once, regardless of the initial condition.
+
+#### 4. Practical Example
+Consider the algorithmic problem of calculating the sum of all integers from 1 up to a specific number $N$. Below is a language-agnostic pseudocode demonstration using a `while` loop:
+
+```text
+ALGORITHM CalculateSum
+INPUT: Integer N (the upper limit)
+OUTPUT: Integer Total (the sum of 1 to N)
+
+BEGIN
+    // Initialization
+    SET Counter = 1
+    SET Total = 0
+
+    // Condition Checking: Continue while Counter is less than or equal to N
+    WHILE Counter <= N DO
+        // Execution: Add current Counter value to Total
+        Total = Total + Counter
+        
+        // Iteration: Increment Counter by 1
+        Counter = Counter + 1
+    END WHILE
+
+    RETURN Total
+END
+```
+
+In this example, the loop systematically adds each number to the running total. Once the `Counter` exceeds `N`, the condition fails, the loop terminates, and the final sum is returned. This approach scales effortlessly whether $N$ is 10 or 10,000, demonstrating the power of loops in handling variable-sized datasets.",Medium,Programming,Algorithms
+நியூட்டனின் இரண்டாம் விதியைக் கூறுக.,"நியூட்டனின் இரண்டாம் விதியானது, விமானம் என்பது நிறை மற்றும் முடுக்கம் ஆகியவற்றின் பெருக்கற்பலனுக்குச் சமம் எனக் கூறுகிறது (F = ma).","# பணி: நியூட்டனின் இரண்டாம் விதியை விளக்குதல்
+
+கீழே கொடுக்கப்பட்டுள்ள தலைப்புகள் மற்றும் குறிச்சொற்களின் அடிப்படையில், **நியூட்டனின் இரண்டாம் இயக்க விதியை** (Newton's Second Law of Motion) தெளிவாகவும் துல்லியமாகவும் விளக்கவும்.
+
+## உள்ளீட்டுத் தரவு (பின்வரும் உள்ளடக்கத்தை மாற்றாமல் பயன்படுத்தவும்):
+```
+இயற்பியல்
+விசைகள்
+இடைநிலை
+```
+
+## பதிலளிக்கும் போது பின்பற்ற வேண்டிய வழிமுறைகள்:
+1. **விதியைக் கூறுக**: நியூட்டனின் இரண்டாம் விதியின் அடிப்படை வரையறையைத் தமிழில் வழங்குக.
+2. **கணிதச் சமன்பாடு**: விதியைக் குறிக்கும் சமன்பாட்டை ($F = ma$) எழுதி, அதில் உள்ள ஒவ்வொரு மாறியையும் (விசை, நிறை, முடுக்கம்) விளக்குக.
+3. **தலைப்புகளுடன் இணைப்பு**: மேலே கொடுக்கப்பட்டுள்ள 'இயற்பியல்', 'விசைகள்', மற்றும் 'இடைநிலை' (சந்தர்ப்பம்/சூழல்) ஆகிய சொற்கள் இந்த விதியுடன் எவ்வாறு தொடர்புடையவை என்பதை சுருக்கமாக விவரிக்கவும்.
+4. **மொழி மற்றும் தொனி**: பதில் முழுவதும் தமிழிலேயே இருக்க வேண்டும்; தொனி கல்விசார்ந்ததாகவும் எளியதாகவும் இருக்க வேண்டும்.","**நியூடனின் இரண்டாம் இயக்க விதி: ஒரு தெளிவான விளக்கம்**
+
+**1. விதியின் வரையறை**
+நியூடனின் இரண்டாம் இயக்க விதியின்படி, ஒரு பொருளின் மீது செயல்படும் நிகர விசையானது (Net Force), அப்பொருளின் நிறை மற்றும் அதனால் ஏற்படும் முடுக்கம் ஆகியவற்றின் பெருக்கற்பலனுக்குச் சமமாக இருக்கும். எளிய சொற்களில் கூற வேண்டுமெனில், ஒரு பொருளை உந்துவதற்கு அல்லது திசைமாற்றுவதற்கு விசை தேவை; அந்த விசையின் அளவு பொருளின் எடையைப் (நிறை) பொறுத்தும், அது எவ்வளவு வேகமாக முடுக்கமடைய வேண்டும் என்பதைப் பொறுத்தும் அமையும். விசை செயல்படும் திசையிலேயே முடுக்கமும் ஏற்படும்.
+
+**2. கணிதச் சமன்பாடு மற்றும் விளக்கம்**
+இந்த விதியைக் கணித ரீதியாக பின்வருமாறு குறிப்பிடலாம்:
+
+$$F = ma$$
+
+இங்குள்ள ஒவ்வொரு மாறியின் பொருளும் பின்வருமாறு:
+
+*   **$F$ (விசை - Force):** இது பொருளின் மீது செயல்படும் மொத்த அல்லது நிகர விசையைக் குறிக்கிறது. இது ஒரு திசையன் அளவு (Vector quantity) ஆகும்; அதாவது இதற்கு அளவு மட்டுமல்ல, ஒரு குறிப்பிட்ட திசையும் உண்டு. இதன் அலகு நியூடன் (N) ஆகும்.
+*   **$m$ (நிறை - Mass):** இது பொருளில் உள்ள பருப்பொருளின் அளவைக் குறிக்கிறது. நிறை அதிகமாக இருந்தால், அதே அளவு முடுக்கத்தை ஏற்படுத்த அதிக விசை தேவைப்படும். இதன் அலகு கிலோகிராம் (kg) ஆகும்.
+*   **$a$ (முடுக்கம் - Acceleration):** விசையின் செயல்பாட்டால் பொருளின் திசைவேகத்தில் ஏற்படும் மாற்ற விகிதமே முடுக்கம் ஆகும். விசை அதிகரிக்கும் போது முடுக்கமும் அதிகரிக்கும்; நிறை அதிகரிக்கும் போது முடுக்கம் குறையும். இதன் அலகு மீட்டர்/விநாடி² ($m/s^2$) ஆகும்.
+
+**3. கொடுக்கப்பட்ட தலைப்புகளுடனான இணைப்பு**
+கொடுக்கப்பட்டுள்ள மூன்று முக்கிய சொற்களும் இந்த விதியைப் புரிந்துகொள்வதில் மையப் பங்கு வகிக்கின்றன:
+
+*   **இயற்பியல்:** நியூடனின் இரண்டாம் விதி இயற்பியலின் அடித்தளக்கல்லாகும். இயக்கத்தைப் பற்றிய நமது புரிதலுக்கு இதுவே அடிப்படை. ஒரு பொருள் ஏன் இயங்குகிறது அல்லது ஏன் நிற்கிறது என்பதை விளக்கும் அறிவியல் கோட்பாடுகளில் இது முதன்மையானது.
+*   **விசைகள்:** இந்த விதியின் உள்ளடக்கமே 'விசைகள்' தான். பல விசைகள் ஒரு பொருளின் மீது பல்வேறு திசைகளில் செயல்படலாம். அவற்றின் கூட்டுத்தொகையான 'நிகர விசை' தான் பொருளின் இயக்கத்தைத் தீர்மானிக்கிறது. விசை இல்லையெனில் முடுக்கமும் இருக்காது.
+*   **இடையிலை (சூழல்/சந்தர்ப்பம்):** உண்மையான உலகில் ஒரு பொருள் இயங்கும்போது, உராய்வு, காற்றுத் தடை போன்ற காரணிகள் செயல்படுகின்றன. இந்த 'இடையிலை' அல்லது சூழலைக் கணக்கில் எடுத்துக்கொள்ளும்போது தான் $F = ma$ என்ற சமன்பாடு முழுமையான பொருளைத் தருகிறது. உதாரணமாக, ஒரு கனமான பெட்டியைத் தள்ளும்போது, தரையின் உராய்வு (இடையிலை) எதிர்த்திசையில் செயல்படுவதால், நாம் பிரயோகிக்கும் விசையில் ஒரு பகுதி அதைச் சமன் செய்யப் பயன்படுகிறது; மீதியுள்ள விசை தான் பெட்டியை முடுக்கமடையச் செய்கிறது.
+
+சுருக்கமாகச் சொன்னால், இயற்பியலின் விதிகளின்படி, விசைகள் செயல்படும் இடையிலைச் சூழலில் தான் நியூடனின் இரண்டாம் விதி பொருட்களின் இயக்கத்தைத் துல்லியமாகக் கணிக்க உதவுகிறது.",Medium,Physics,Forces
+2x + 4 = 10 में x का मान क्या है?,दोनों पक्षों से 4 घटाएँ ताकि 2x = 6 प्राप्त हो। 2 से भाग दें। अतः x = 3 है।,"# निर्देश
+निम्नलिखित गणितीय समीकरण को हल करें और चर 'x' का मान ज्ञात करें।
+
+# संदर्भ विवरण
+- **विषय**: गणित
+- **उप-विषय**: बीजगणित
+- **कठिनाई स्तर**: सरल
+
+# हल करने के लिए समीकरण
+2x + 4 = 10 में x का मान क्या है?","नमस्ते! चलिए, इस समीकरण को साथ-साथ हल करते हैं। डरने की कोई बात नहीं है, यह बहुत आसान है।
+
+हमारे पास यह समीकरण है:
+**2x + 4 = 10**
+
+हमें 'x' का पता लगाना है। चलिए, इसे धीरे-धीरे और सरल तरीके से समझते हैं:
+
+1.  **सबसे पहले:** हमें 'x' वाले हिस्से को अकेला करना है। अभी उसके साथ '+ 4' जुड़ा हुआ है। अगर हम समीकरण के एक तरफ से 4 को हटा दें, तो दूसरी तरफ से भी 4 हटाना पड़ेगा ताकि संतुलन बना रहे।
+    
+    तो, 10 में से 4 घटाते हैं:
+    10 - 4 = 6
+    
+    अब हमारा समीकरण बन गया:
+    **2x = 6**
+
+2.  **अगला कदम:** अब देखिए, 'x' के साथ 2 लगा हुआ है (जिसका मतलब है 2 गुना x)। 'x' को बिल्कुल अकेला करने के लिए, हमें 6 को 2 से भाग (divide) करना होगा।
+    
+    चलिए गिनते हैं: 6 को 2 से भाग देने पर क्या आता है?
+    6 ÷ 2 = 3
+    
+    तो, **x = 3**
+
+बस हो गया! हमारा उत्तर **3** है।
+
+आइए एक बार जाँच भी कर लेते हैं कि यह सही है या नहीं:
+अगर हम x की जगह 3 रखें, तो 2 गुना 3 होता है 6, और उसमें 4 जोड़ने पर (6 + 4) हमें वापस 10 मिल जाता है। बिल्कुल सही!
+
+आपने बहुत अच्छे से समझ लिया। बस इतना याद रखें कि हमेशा 'x' को अकेला करने की कोशिश करनी होती है।",Easy,Math,Algebra
+What is the value of x in 2x + 4 = 10?,Subtract 4 from both sides to get 2x = 6. Divide by 2. Therefore x = 3.,"Solve the following algebra problem step-by-step to find the value of x.
+
+Problem Details:
+- Equation: 2x + 4 = 10
+- Subject: Math
+- Topic: Algebra
+- Difficulty: Easy
+
+Please provide the final value of x.","Let's solve this together, step by step! Imagine we have a balance scale, and we want to find out what number $x$ represents so that both sides are equal.
+
+Our equation is:
+$$2x + 4 = 10$$
+
+**Step 1: Get rid of the extra number.**
+First, we see a $+4$ on the left side with our $2x$. To isolate the $x$ part, we need to move that $4$ to the other side. We do this by subtracting $4$ from both sides of the equation. This keeps our scale balanced!
+
+$$2x + 4 - 4 = 10 - 4$$
+
+Now, the $+4$ and $-4$ cancel each other out on the left, and on the right, $10$ minus $4$ equals $6$.
+So now we have:
+$$2x = 6$$
+
+**Step 2: Find the value of one x.**
+Right now, we have $2x$, which means ""2 times $x$."" We want to know what just one $x$ is. To undo multiplying by $2$, we do the opposite: we divide by $2$. We must divide both sides by $2$ to stay fair and keep the equation balanced.
+
+$$\frac{2x}{2} = \frac{6}{2}$$
+
+On the left, the $2$s cancel out, leaving just $x$. On the right, $6$ divided by $2$ equals $3$.
+
+$$x = 3$$
+
+**Final Answer:**
+The value of $x$ is **3**.
+
+Great job working through that! You did it perfectly.",Easy,Math,Algebra
+Python में टेक्स्ट कैसे प्रिंट करें?,print फ़ंक्शन का उपयोग करें। उदाहरण: print('Hello World').,"# कार्य: पाइथन में टेक्स्ट प्रिंट करना
+
+## संदर्भ
+- **विषय**: प्रोग्रामिंग
+- **भाषा**: पाइथन (Python)
+- **कठिनाई स्तर**: आसान
+
+## निर्देश
+पाइथन प्रोग्रामिंग भाषा का उपयोग करके टेक्स्ट को स्क्रीन पर प्रिंट करने की सबसे बुनियादी और आसान विधि समझाएं। कृपया एक स्पष्ट कोड उदाहरण प्रदान करें जो दिखाता हो कि स्ट्रिंग (текст) को कैसे आउटपुट किया जाता है, और कोड के प्रत्येक भाग का संक्षिप्त वर्णन करें ताकि एक शुरुआती उपयोगकर्ता आसानी से समझ सके।","नमस्ते! पाइथन में स्क्रीन पर कोई भी टेक्स्ट या संदेश प्रिंट करना बहुत ही आसान है। यह पाइथन सीखने की पहली और सबसे महत्वपूर्ण सीढ़ी है। आइए, इसे बहुत सरल तरीके से समझते हैं।
+
+पाइथन में टेक्स्ट प्रिंट करने के लिए हम `print()` नाम का एक इनबिल्ट फंक्शन (built-in function) इस्तेमाल करते हैं। बस आपको यह बताना होता है कि क्या प्रिंट करना है, और पाइथन बाकी काम खुद कर देगा।
+
+### कोड उदाहरण
+
+नीचे एक छोटा सा प्रोग्राम है जो ""नमस्ते दुनिया!"" लिखता है:
+
+```python
+print(""नमस्ते दुनिया!"")
+```
+
+जब आप इस कोड को चलाएंगे, तो आपकी स्क्रीन पर यह आउटपुट आएगा:
+`नमस्ते दुनिया!`
+
+### कोड का विस्तृत विश्लेषण
+
+आइए देखें कि इस एक लाइन के कोड में क्या-क्या हो रहा है, ताकि आप हर हिस्से को अच्छे से समझ सकें:
+
+1.  **`print`**: यह पाइथन का एक विशेष शब्द (keyword) या फंक्शन है जिसका काम किसी भी चीज़ को स्क्रीन पर दिखाना है। जैसे ही कंप्यूटर यह शब्द पढ़ता है, वह तैयार हो जाता है आउटपुट देने के लिए।
+2.  **`( )` (कोष्ठक/Brackets)**: `print` शब्द के बाद लगे ये गोल कोष्ठक बहुत जरूरी हैं। ये पाइथन को बताते हैं कि फंक्शन यहाँ शुरू हो रहा है और समाप्त हो रहा है। जिस भी चीज़ को प्रिंट करना है, उसे हम इन कोष्ठकों के अंदर लिखते हैं।
+3.  **`"" ""` (कोटेशन मार्क्स/Quotation Marks)**: आपने देखा होगा कि हमने अपने टेक्स्ट को डबल कोटेशन मार्क्स (`"" ""`) के बीच लिखा है। प्रोग्रामिंग में, जब भी हम कंप्यूटर को सीधा टेक्स्ट (जिसे 'स्ट्रिंग' कहते हैं) देना चाहते हैं, तो उसे कोटेशन मार्क्स में रखना अनिवार्य है। इससे पाइथन को पता चलता है कि यह कोई गणितीय सूत्र या कोड का हिस्सा नहीं, बल्कि साधारण लिखावट है जिसे जैसा का वैसा प्रिंट करना है।
+4.  **`नमस्ते दुनिया!`**: यह वह असली संदेश है जो हम स्क्रीन पर देखना चाहते हैं। आप यहाँ कोटेशन मार्क्स के बीच अपना कोई भी संदेश लिख सकते हैं।
+
+### अभ्यास के लिए सुझाव
+आप खुद प्रयास कर सकते हैं! ऊपर दिए गए कोड में `""नमस्ते दुनिया!""` की जगह अपना नाम या कोई पसंदीदा शब्द लिखकर देखें। जैसे:
+
+```python
+print(""मेरा नाम राहुल है"")
+```
+
+याद रखें, कोडिंग सीखने की प्रक्रिया में गलतियाँ करना बिल्कुल सामान्य है। अगर कभी कोड नहीं चलता, तो घबराएं नहीं; बस कोटेशन मार्क्स या कोष्ठक की जाँच करें। आप बहुत अच्छा कर रहे हैं, बस ऐसे ही प्रयोग करते रहें!",Easy,Programming,Python
+Solve x² - 9 = 0.,Add 9 to both sides to get x² = 9. Taking square roots gives x = 3 or x = -3.,"# Task: Solve the Algebra Equation
+
+**Problem Statement:**
+Solve the following equation for $x$:
+$$x^2 - 9 = 0$$
+
+**Context:**
+- **Subject:** Math
+- **Topic:** Algebra
+- **Difficulty:** Medium
+
+**Instructions:**
+1. Identify the type of algebraic equation provided.
+2. Show the step-by-step logical deduction to isolate $x$.
+3. Provide the final solution(s), ensuring all possible roots (positive and negative) are included.
+4. Briefly verify the solution by substituting the values back into the original equation.","### Step 1: Identify the Type of Equation
+The equation provided, $x^2 - 9 = 0$, is a **quadratic equation**. Specifically, it is a special case often referred to as a ""difference of squares"" because it consists of a squared variable term minus a perfect square constant, with no linear $x$ term present.
+
+### Step 2: Logical Deduction to Isolate $x$
+To solve for $x$, we need to isolate the variable on one side of the equation. We can achieve this through the following logical steps:
+
+1.  **Add 9 to both sides** of the equation to move the constant term to the right side:
+    $$x^2 - 9 + 9 = 0 + 9$$
+    $$x^2 = 9$$
+
+2.  **Take the square root of both sides** to eliminate the exponent. It is crucial to remember that when taking the square root of a variable squared, we must consider both the positive and negative roots, as both a positive number and its negative counterpart yield a positive result when squared.
+    $$\sqrt{x^2} = \pm\sqrt{9}$$
+    $$x = \pm3$$
+
+This gives us two distinct solutions: $x = 3$ and $x = -3$.
+
+### Step 3: Final Solution
+The solutions to the equation are:
+$$x = 3 \quad \text{and} \quad x = -3$$
+
+### Step 4: Verification
+To ensure accuracy, we substitute both values back into the original equation ($x^2 - 9 = 0$).
+
+**Checking $x = 3$:**
+$$(3)^2 - 9 = 9 - 9 = 0$$
+The equation holds true.
+
+**Checking $x = -3$:**
+$$(-3)^2 - 9 = 9 - 9 = 0$$
+The equation holds true here as well.
+
+Both values satisfy the original condition, confirming that the solution set is correct.",Medium,Math,Algebra
+What is an atom?,An atom is the smallest unit of an element that retains its chemical properties.,"Provide a clear and concise definition of an atom suitable for an easy-level introduction to chemistry.
+
+Context:
+- Subject: Chemistry
+- Topic: Atoms
+- Difficulty: Easy","An atom is the smallest fundamental unit of matter that makes up everything you see, touch, and breathe. Think of it as the essential building block of the universe, much like a single brick is to a wall or a single letter is to a word.
+
+While incredibly tiny, an atom has a specific structure. At its center lies a dense core called the **nucleus**, which contains most of the atom's mass. Swirling rapidly around this nucleus are even smaller particles called **electrons**. What makes one type of atom different from another—such as the difference between the oxygen we breathe and the gold in jewelry—is simply the number of these particles inside them. Despite their complexity, you can remember this simple rule: atoms are the basic ingredients that combine to form all the substances in our world.",Easy,Chemistry,Atoms
+Python-இல் உரையை எவ்வாறு அச்சிடுவது?,print சார்பைப் பயன்படுத்தவும். எடுத்துக்காட்டு: print('Hello World').,"# பணி: பைதான் (Python) இல் உரையை அச்சிடுதல்
+
+பின்வரும் தலைப்புகள் மற்றும் சொற்களின் அடிப்படையில், பைதான் நிரலாக்க மொழியில் உரையை (text) எவ்வாறு அச்சிடுவது என்பதை எளிய முறையில் விளக்கவும்:
+
+- **நிரலாக்கம்** (Programming)
+- **பைதான்** (Python)
+- **எளிது** (Simple/Easy)
+
+மேலே உள்ள சொற்களை உள்ளடக்கியவாறு, ஒரு தொடக்க நிலை பயனருக்கு புரியும் வகையில் குறியீட்டு உதாரணத்துடன் பதிலளிக்கவும்.","வணக்கம்! கணினிக்கு நாம் கொடுக்கும் கட்டளைகளே **நிரலாக்கம்** (Programming) எனப்படும். இதை மிகவும் **எளிது**மாகவும், தெளிவாகவும் கற்றுக்கொள்ள உதவும் மொழியே **பைதான்** (Python) ஆகும்.
+
+பைதானில் எந்தவொரு வரிகளையோ அல்லது செய்திகளையோ திரையில் பார்க்க (அச்சிட), `print()` என்ற ஒரு சிறிய கட்டளையைப் பயன்படுத்தினால் போதும். இது ஒரு அச்சு இயந்திரம் போல செயல்பட்டு, நாம் கொடுக்கும் உரையைத் திரையில் காட்டும்.
+
+கீழே உள்ள எளிய உதாரணத்தைப் பாருங்கள்:
+
+```python
+# பைதானில் உரையை அச்சிடுவது எப்படி?
+
+# 1. வணக்கம் சொல்வோம்
+print(""வணக்கம் தமிழ்நாடு!"")
+
+# 2. ஒரு எளிய செய்தி
+print(""பைதானில் நிரலாக்கம் கற்பது மிகவும் எளிது."")
+
+# 3. எண்களையும் அச்சிடலாம்
+print(2024)
+```
+
+**இதை எப்படி இயக்குவது?**
+1. மேலே உள்ள குறியீட்டை ஒரு கோப்பாகச் சேமிக்கவும் (உதாரணத்திற்கு: `hello.py`).
+2. அதை பைதானில் இயக்கினால், திரையில் பின்வருமாறு வெளியீடு வரும்:
+
+```text
+வணக்கம் தமிழ்நாடு!
+பைதானில் நிரலாக்கம் கற்பது மிகவும் எளிது.
+2024
+```
+
+இங்கு `print` என்பது கட்டளை, அடைப்புக்குறிக்குள் `""` உள்ள வாசகங்கள் நாம் அச்சிட விரும்பும் செய்திகள். இவ்வளவுதான் பைதானில் அடிப்படை அச்சிடுதல்! இனி நீங்களும் உங்கள் சொந்த செய்திகளை மாற்றிப் பார்த்துப் பயிற்சி செய்யலாம்.",Easy,Programming,Python
+What is velocity?,Velocity is the rate of change of displacement with respect to time and includes direction.,"Provide a clear and concise definition of velocity suitable for an easy-level understanding within the context of Physics and Mechanics.
+
+Context Tags:
+- Subject: Physics
+- Topic: Mechanics
+- Difficulty: Easy
+- Core Question: What is velocity?","Velocity is simply the speed of an object combined with the direction in which it is moving.
+
+While speed tells you only how fast something is going (for example, 60 miles per hour), velocity provides the complete picture by adding where it is headed (such as 60 miles per hour *north*). Because it includes direction, velocity is what allows us to predict exactly where an object will be at a future time. If either the speed changes or the direction changes, the velocity has changed.",Easy,Physics,Mechanics
+What is electric current?,Electric current is the flow of electric charge through a conductor.,"# Task: Define Electric Current
+
+**Context:**
+- Subject: Physics
+- Topic: Electricity
+- Difficulty Level: Medium
+
+**Instructions:**
+Provide a clear and accurate definition of electric current suitable for a medium-difficulty physics context. Your explanation should:
+1. Define electric current as the rate of flow of electric charge.
+2. Mention the standard unit of measurement (Amperes).
+3. Briefly distinguish between conventional current and electron flow if relevant to the clarity of the definition.
+4. Use precise technical vocabulary appropriate for the specified difficulty level.","Electric current is fundamentally defined as the rate at which electric charge flows past a specific point in a circuit. Mathematically, it is expressed as the amount of charge ($Q$) passing through a cross-section of a conductor per unit of time ($t$), represented by the equation $I = \frac{dQ}{dt}$.
+
+The standard unit for measuring electric current in the International System of Units (SI) is the **Ampere** (symbol: A). One Ampere corresponds to one Coulomb of charge passing a given point every second.
+
+To ensure clarity when analyzing circuits, it is important to distinguish between two concepts of direction:
+*   **Conventional Current**: By historical convention, current is defined as flowing from the positive terminal to the negative terminal of a power source. This is the standard direction used in circuit diagrams and most engineering calculations.
+*   **Electron Flow**: In metallic conductors, the actual physical charge carriers are electrons, which are negatively charged. Consequently, they physically move from the negative terminal to the positive terminal, opposite to the direction of conventional current.
+
+While the physical movement involves electrons traveling one way, the established convention of current flowing from positive to negative remains the universal standard for describing and calculating electrical behavior.",Medium,Physics,Electricity
+Python માં ટેક્સ્ટ કેવી રીતે પ્રિન્ટ કરવો?,print ફંક્શનનો ઉપયોગ કરો. ઉદાહરણ: print('Hello World').,"# ભૂમિકા
+તમે એક નિષ્ણાત પાયથોન પ્રોગ્રામિંગ શિક્ષક છો જે શરૂઆત કરનારાઓને સરળ અને સ્પષ્ટ રીતે સમજાવવામાં માહેર છે.
+
+# કાર્ય
+નીચે આપેલ વિષય અને સંદર્ભના આધારે, પાયથોનમાં ટેક્ટ્સ પ્રિન્ટ કરવાની પદ્ધતિ વિશે વિગતવાર જવાબ આપો.
+
+# સંદર્ભ સામગ્રી
+- **પ્રશ્ન**: Python માં ટેક્સ્ટ કેવી રીતે પ્રિન્ટ કરવો?
+- **શ્રેણી**: પ્રોગ્રામિંગ
+- **ભાષા**: પાયથોન
+- **સ્તર**: સરળ
+
+# જવાબ માટેના નિર્દેશો
+1. **સરળ સમજૂતી**: `print()` ફંક્શન શું છે અને તે કેવી રીતે કામ કરે છે તે સરળ ભાષામાં સમજાવો.
+2. **કોડ ઉદાહરણ**: ટેક્ટ્સ પ્રિન્ટ કરવા માટેનું એક સરળ અને ચોક્કસ કોડ ઉદાહરણ આપો.
+3. **આઉટપુટ**: કોડ ચલાવવા પર મળતું આઉટપુટ બતાવો.
+4. **ટોન**: જવાબ શૈક્ષણિક, મૈત્રીપૂર્ણ અને શરૂઆત કરનારાઓ માટે યોગ્ય હોવો જોઈએ.
+
+કૃપા કરીને તમારો જવાબ ગુજરાતી ભાષામાં આપો.","નમસ્તે! પાયથોનમાં ટેક્સ્ટ પ્રિન્ટ કરવું એ પ્રોગ્રામિંગ શીખવાની સૌથી પહેલી અને મજેદાર સ્ટેપ છે. ચાલો આને ખૂબ જ સરળ રીતે સમજીએ.
+
+### ૧. `print()` ફંક્શન શું છે?
+પાયથોનમાં `print()` એ એક ખાસ કમાન્ડ (ફંક્શન) છે જેનો ઉપયોગ આપણે કમ્પ્યુટરની સ્ક્રીન પર કંઈપણ માહિતી બતાવવા માટે કરીએ છીએ. તમે તેને એક ""મેસેન્જર"" તરીકે વિચારી શકો છો: તમે તેને અંદર કંઈક લખો છો, અને તે તેને સ્ક્રીન પર બહાર લાવીને બતાવે છે.
+
+જ્યારે આપણે કોઈ ટેક્સ્ટ (શબ્દો વાક્ય) પ્રિન્ટ કરવા માંગીએ છીએ, ત્યારે તેને હંમેશા ઉદાહરણ તરીકે `' '` (સિંગલ કોટ્સ) અથવા `"" ""` (ડબલ કોટ્સ) ની અંદર લખવો પડે છે. આથી પાયથોનને સમજાય છે કે આ કોડનો ભાગ નહીં, પણ સાદો ટેક્સ્ટ છે જેને બતાવવાનો છે.
+
+### ૨. કોડ ઉદાહરણ
+ચાલો એક સરળ ઉદાહરણ જોઈએ જે સ્ક્રીન પર ""નમસ્તે, હું પાયથોન શીખી રહ્યો છું!"" લખેલું બતાવશે:
+
+```python
+print(""નમસ્તે, હું પાયથોન શીખી રહ્યો છું!"")
+```
+
+અહીં:
+- `print` એ કમાન્ડનું નામ છે.
+- `()` ની અંદર આપણે તે મેસેજ મૂક્યો છે જે બતાવવો છે.
+- `"" ""` ની અંદરનો ભાગ આપણો ટેક્સ્ટ છે.
+
+### ૩. આઉટપુટ (પરિણામ)
+જ્યારે તમે ઉપરનો કોડ ચલાવશો, ત્યારે તમારી સ્ક્રીન પર નીચે મુજબનું પરિણામ દેખાશે:
+
+```text
+નમસ્તે, હું પાયથોન શીખી રહ્યો છું!
+```
+
+બસ આટલું જ! પાયથોનમાં પોતાના વિચારો કે માહિતી દુનિયા સાથે શેર કરવાની આ સૌથી સરળ રીત છે. હવે તમે જાતે જ અલગ અલગ સંદેશાઓ લખીને પ્રયત્ન કરી જોઓ. શુભકામનાઓ!",Easy,Programming,Python
+What is a catalyst?,A catalyst is a substance that increases the rate of a chemical reaction without being consumed.,"### Task Definition
+Provide a clear and concise definition of a catalyst within the context of Chemistry and Chemical Reactions.
+
+### Context Tags
+The following tags indicate the subject matter and difficulty level:
+- Subject: Chemistry
+- Topic: Chemical Reactions
+- Difficulty: Medium
+
+### Core Question
+What is a catalyst?","A catalyst is a substance that increases the rate of a chemical reaction without being permanently consumed or altered in the process. It functions by providing an alternative pathway for the reaction to occur, one that requires less activation energy—the initial energy barrier that reactant molecules must overcome to transform into products. By lowering this barrier, a catalyst allows a greater proportion of molecular collisions to result in a successful reaction, thereby speeding up the process significantly.
+
+Crucially, because the catalyst is not used up, it can participate in multiple reaction cycles. It may temporarily interact with reactants to form intermediate structures, but it is regenerated in its original form by the end of the reaction. While a catalyst changes how quickly a reaction reaches equilibrium, it does not alter the final position of that equilibrium or the thermodynamic stability of the products; it simply allows the system to reach that state much faster than it would on its own.",Medium,Chemistry,Chemical Reactions
+Python मध्ये मजकूर कसा प्रिंट करायचा?,print फंक्शनचा वापर करा. उदाहरण: print('Hello World').,"# कार्य: Python मध्ये मजकूर प्रिंट करणे
+
+खालील दिलेल्या माहितीचा वापर करून Python प्रोग्रामिंग भाषेत मजकूर स्क्रीनवर कसा प्रदर्शित (print) करावा, हे स्पष्ट करा.
+
+## इनपुट डेटा
+खालील यादीमध्ये दिलेले शब्द वापरून उदाहरणे तयार करा:
+```
+[{""type"": ""text"", ""text"": ""\u092a\u094d\u0930\u094b\u0917\u094d\u0930\u093e\u092e\u093f\u0902\u0917\n\u092a\u093e\u092f\u0925\u0928\n\u0938\u094b\u092a\u0947""}]
+```
+
+## अपेक्षित आउटपुट
+1. `print()` फंक्शनचे मूलभूत सिंटॅक्स (Syntax) स्पष्ट करा.
+2. वरील इनपुट डेटामधील ""प्रोग्रामिंग"", ""पायथन"", आणि ""सोपे"" या शब्दांचा वापर करून एक किंवा अधिक कोड उदाहरणे द्या.
+3. कोडचे आउटपुट काय असेल ते दर्शवा.
+4. स्पष्टीकरण मराठी भाषेत आणि सोप्या शब्दांत द्या.","# Python मध्ये मजकूर प्रिंट करणे: सोपे मार्गदर्शन
+
+Python प्रोग्रामिंगमध्ये स्क्रीनवर काहीही लिहिण्यासाठी किंवा माहिती दाखवण्यासाठी आपण `print()` या फंक्शनचा वापर करतो. हे अगदी एखाद्याला चिठ्ठी पाठवण्यासारखे आहे; तुम्ही काय पाठवायचे आहे ते `print()` च्या कंसात लिहिले की ते स्क्रीनवर दिसते.
+
+### १. `print()` फंक्शनचे मूलभूत स्वरूप (Syntax)
+
+कोड लिहिताना खालील स्वरूप वापरावे लागते:
+
+```python
+print(""येथे तुमचा मजकूर लिहा"")
+```
+
+*   **print**: हे एक आज्ञापत्र (command) आहे जे कंप्युटरला सांगते की ""हे छापून दाखव"".
+*   **कंस `()`**: मजकूर किंवा माहिती या कंसाच्या आत लिहावी लागते.
+*   **कोटेशन मार्क्स `""""` किंवा `''`**: जर तुम्हाला साधा शब्द किंवा वाक्य लिहायचे असेल, तर ते नेहमी कोटेशन मार्क्समध्ये लिहावे लागते. यामुळे कंप्युटरला कळते की ही एक साधी टेक्स्ट स्ट्रिंग आहे.
+
+---
+
+### २. कोड उदाहरणे
+
+दिलेल्या शब्दांचा (**प्रोग्रामिंग**, **पायथन**, **सोपे**) वापर करून आपण खालीलप्रमाणे कोड लिहू शकतो:
+
+**उदाहरण १: प्रत्येक शब्द वेगळा प्रिंट करणे**
+
+```python
+print(""प्रोग्रामिंग"")
+print(""पायथन"")
+print(""सोपे"")
+```
+
+**उदाहरण २: एकाच ओळीत वाक्य तयार करणे**
+
+```python
+print(""प्रोग्रामिंग शिकणे पायथन मध्ये खूप सोपे आहे."")
+```
+
+---
+
+### ३. अपेक्षित आउटपुट (Output)
+
+जेव्हा तुम्ही वरील कोड रन (Run) कराल, तेव्हा स्क्रीनवर खालीलप्रमाणे निकाल दिसतील:
+
+**उदाहरण १ चे आउटपुट:**
+```text
+प्रोग्रामिंग
+पायथन
+सोपे
+```
+
+**उदाहरण २ चे आउटपुट:**
+```text
+प्रोग्रामिंग शिकणे पायथन मध्ये खूप सोपे आहे.
+```
+
+---
+
+### ४. स्पष्टीकरण
+
+*   **कसे काम करते?**: जेव्हा आपण `print(""प्रोग्रामिंग"")` असे लिहितो, तेव्हा Python इंटरप्रिटर कंसातील मजकूर वाचतो आणि तो तसाच स्क्रीनवर दर्शवितो.
+*   **नवीन ओळ (New Line)**: पहिल्या उदाहरणात आपण तीन वेगळ्या `print()` कमांड्स वापरल्या आहेत. Python मध्ये प्रत्येक `print()` कमांड नंतर आपोआप एक नवीन ओळ सुरू होते. म्हणून तिन्ही शब्द एकाखाली एक दिसले.
+*   **वाक्य रचना**: दुसऱ्या उदाहरणात आपण तिन्ही शब्द एकाच `print()` कमांडमध्ये जोडले आहेत. यामुळे ते एकाच ओळीत वाक्याप्रमाणे दिसतात.
+
+सुरुवातीला फक्त हे लक्षात ठेवा की, जे काही तुम्हाला स्क्रीनवर पाहायचे आहे, ते `print()` च्या कंसात आणि कोटेशन मार्क्समध्ये लिहा. बाकीचे काम Python स्वतः करेल!",Easy,Programming,Python
+What is a list in Python?,A list is an ordered and mutable collection that can store multiple items.,"Provide a comprehensive explanation of what a list is in the Python programming language. Structure your response to cover the following key areas:
+
+1. **Definition**: Clearly define a Python list as a fundamental data structure.
+2. **Characteristics**: Detail its core properties, such as being ordered, mutable (changeable), and allowing duplicate elements.
+3. **Syntax & Creation**: Show how to create a list using square brackets `[]` with examples.
+4. **Common Operations**: Briefly list essential operations like indexing, slicing, appending, and removing items.
+5. **Use Cases**: Explain when and why lists are used in programming contexts.
+
+Ensure the tone is educational and suitable for a learner with medium-level programming knowledge.
+
+---
+Context Tags:
+- Topic: Programming
+- Category: Data Structures
+- Difficulty: Medium","### Understanding Python Lists
+
+In the landscape of Python programming, the list is arguably the most versatile and frequently used data structure. Think of it as a dynamic container that allows you to store a collection of items in a specific order. Whether you are tracking user inputs, processing datasets, or managing a queue of tasks, lists provide the flexibility needed to handle sequences of data efficiently.
+
+#### 1. Definition
+A **list** in Python is a built-in data structure designed to hold an ordered collection of items. Unlike arrays in some other languages that might restrict you to a single data type, a Python list is heterogeneous, meaning it can contain integers, strings, objects, or even other lists all within the same container. It serves as the foundational tool for managing sequences where the order of elements matters and the collection size may need to change during execution.
+
+#### 2. Core Characteristics
+To effectively utilize lists, it is essential to understand three defining properties:
+
+*   **Ordered**: Every element in a list has a definite position. The order in which you insert items is preserved, allowing you to reliably access the ""first"" or ""last"" item whenever needed.
+*   **Mutable**: Lists are dynamic; they can be changed after creation. You can add new items, remove existing ones, or modify the value of an element at a specific position without creating a new list object.
+*   **Allows Duplicates**: There are no restrictions on uniqueness within a list. You can store the same value multiple times, which is crucial when the frequency of an item carries meaning (e.g., counting occurrences or maintaining a history of events).
+
+#### 3. Syntax and Creation
+Creating a list is straightforward. You enclose a comma-separated sequence of elements within square brackets `[]`.
+
+```python
+# An empty list
+inventory = []
+
+# A list of integers
+scores = [95, 87, 92, 88]
+
+# A mixed-type list containing strings, integers, and a boolean
+user_profile = [""Alice"", 30, True, ""Engineer""]
+
+# A nested list (a list within a list)
+matrix = [[1, 2], [3, 4]]
+```
+
+#### 4. Common Operations
+Once a list is created, you will frequently perform the following operations to manipulate its contents:
+
+*   **Indexing**: Accessing a specific element by its position. Python uses zero-based indexing, so the first item is at index `0`.
+    *   Example: `scores[0]` returns `95`.
+*   **Slicing**: Extracting a subset of the list to create a new list.
+    *   Example: `scores[1:3]` returns `[87, 92]` (items from index 1 up to, but not including, index 3).
+*   **Appending**: Adding a single item to the end of the list.
+    *   Example: `scores.append(100)` adds `100` to the end of the `scores` list.
+*   **Removing**: Deleting an item by value or position.
+    *   Example: `scores.remove(87)` removes the first occurrence of `87`, or `scores.pop(0)` removes and returns the first item.
+
+#### 5. Practical Use Cases
+Lists are the go-to structure when you need to manage a sequence of data that evolves over time. Common scenarios include:
+
+*   **Iterating over datasets**: When you need to process a series of records, such as lines in a file or rows in a database result.
+*   **Stacks and Queues**: Implementing logic where items are added and removed in a specific order (Last-In-First-Out or First-In-First-Out).
+*   **Collecting Results**: Gathering outputs from a loop, such as calculating squares for a range of numbers or filtering valid entries from a larger dataset.
+*   **Temporary Storage**: Holding user inputs or configuration settings that may need to be updated or reordered before final processing.
+
+By mastering lists, you gain the ability to write code that is not only functional but also adaptable to changing data requirements, forming a critical skill set for any Python developer.",Medium,Programming,Data Structures
