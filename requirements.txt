@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+chromadb
+sentence-transformers
+pandas
+matplotlib
+python-dotenv
+sqlite-utils
